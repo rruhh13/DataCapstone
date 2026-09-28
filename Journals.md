@@ -19,4 +19,4 @@ I was not able to make much progress on the capstone this week because I was bus
 
 
 ## Week 4
-This week I mostly played with data. Did some EDA to understand what data I am working with. Things are picking up now as we are getting close to halfway of our semester. The fun part right now is to figure out how I can host in steamlit. Never used it before, so will be fun.
+This week I mostly played with data. Did some EDA to understand what data I am working with. Things are picking up now as we are getting close to halfway of our semester. The fun part right now is to figure out how I can host in steamlit. Never used it before, so will be fun. I also updated my data source section as well. 
