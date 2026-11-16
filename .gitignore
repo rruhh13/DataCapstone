@@ -1,0 +1,10 @@
+#downloaded data, can be rebuilt by running the scripts
+f1_cache/
+data/
+
+#python and mac junk
+__pycache__/
+.DS_Store
+
+#old fastf1 test output
+track_status_test.csv
