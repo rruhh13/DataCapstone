@@ -1,18 +1,5 @@
-import sys
-from pathlib import Path
 import pandas as pd
 from openf1 import get, to_time
-
-OUT_DIR = Path(__file__).resolve().parent / "data" / "processed"
-OUT_DIR.mkdir(parents=True, exist_ok=True)
-
-
-def find_race(year, country):
-    #session_name Race means no sprints
-    races = get("sessions", year=year, country_name=country, session_name="Race")
-    if len(races) != 1:
-        raise ValueError("found " + str(len(races)) + " races for " + country + " " + str(year))
-    return races.iloc[0]
 
 
 def lap_start_time(laps, lap_no):
@@ -285,43 +272,3 @@ def process_race(race):
 
     return sc, impact, rc
 
-
-#this part only runs when i run this file myself, not when run_all.py uses it
-if __name__ == "__main__":
-    #python sc_openf1.py Qatar 2024, or nothing for canada 2024
-    country = "Canada"
-    year = 2024
-    if len(sys.argv) > 1:
-        country = sys.argv[1]
-    if len(sys.argv) > 2:
-        year = int(sys.argv[2])
-
-    race = find_race(year, country)
-    print()
-    print(year, race["country_name"], race["circuit_short_name"], "session_key", race["session_key"])
-
-    sc, impact, rc = process_race(race)
-
-    #raw sc and red flag messages to check the matching
-    check = rc[(rc["category"] == "SafetyCar") | (rc["flag"] == "RED")]
-    print("\n--- safety car / red flag messages ---")
-    print(check[["date", "lap_number", "category", "flag", "message"]].to_string(index=False))
-
-    if len(sc) == 0:
-        print("\nno full safety car in this race")
-    else:
-        print("\nfull safety cars:", len(sc))
-        print(sc[["sc_event_number", "deploy_lap", "end_type", "restart_lap", "duration_seconds",
-                  "validation_status", "flags"]].to_string(index=False))
-
-        show = ["driver", "team", "position_before", "position_after", "position_gain",
-                "pitted_during_sc", "finish_position", "exclusion_reason"]
-        for num in sc["sc_event_number"]:
-            print("\n--- sc", num, "---")
-            one = impact[impact["sc_event_number"] == num]
-            print(one.sort_values("position_gain", ascending=False)[show].to_string(index=False))
-
-        tag = str(year) + "_" + country.replace(" ", "_").lower()
-        sc.to_csv(OUT_DIR / ("openf1_sc_events_" + tag + ".csv"), index=False)
-        impact.to_csv(OUT_DIR / ("openf1_driver_sc_impact_" + tag + ".csv"), index=False)
-        print("\nsaved to data/processed")
