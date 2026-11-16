@@ -16,13 +16,16 @@ for _, race in races.iterrows():
         rc = get("race_control", session_key=race["session_key"])
         msg = rc["message"].astype(str).str.upper()
         is_sc = rc["category"] == "SafetyCar"
+        #2026 writes "VSC DEPLOYED" so check for both spellings
+        is_vsc = msg.str.contains("VSC") | msg.str.contains("VIRTUAL")
         rows.append({
             "session_key": race["session_key"],
             "country": race["country_name"],
             "circuit": race["circuit_short_name"],
-            "sc": (is_sc & msg.str.contains("DEPLOYED") & ~msg.str.contains("VIRTUAL")).sum(),
-            "vsc": (is_sc & msg.str.contains("VIRTUAL SAFETY CAR DEPLOYED")).sum(),
-            "red": (rc["flag"] == "RED").sum(),
+            "sc": (is_sc & msg.str.contains("DEPLOYED") & ~is_vsc).sum(),
+            "vsc": (is_sc & msg.str.contains("DEPLOYED") & is_vsc).sum(),
+            #startswith because "CHEQUERED FLAG" has "RED FLAG" inside it
+            "red": ((rc["flag"] == "RED") | msg.str.startswith("RED FLAG")).sum(),
             "status": "ok"
         })
     except Exception as e:

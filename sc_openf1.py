@@ -1,10 +1,7 @@
+import sys
 from pathlib import Path
 import pandas as pd
 from openf1 import get, to_time
-
-#race to look at, change these to test other races
-YEAR = 2024
-COUNTRY = "Canada"
 
 OUT_DIR = Path(__file__).resolve().parent / "data" / "processed"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -24,58 +21,96 @@ def lap_start_time(laps, lap_no):
     return starts.min() if not starts.empty else pd.NaT
 
 
+def is_red(row):
+    #2023-2025 use the flag column, 2026 just writes "RED FLAG - RACE SUSPENDED"
+    #startswith because "CHEQUERED FLAG" also has "RED FLAG" inside it lol
+    return row["flag"] == "RED" or str(row["message"]).upper().startswith("RED FLAG")
+
+
 def get_sc_events(rc, laps):
-    #same idea as the fastf1 version, go row by row and track if a sc is out
-    #start = "SAFETY CAR DEPLOYED", end = "SAFETY CAR IN THIS LAP"
-    #the restart is when the leader starts the next lap
+    #go row by row and track if a sc is out
+    #start = "SAFETY CAR DEPLOYED"
+    #a sc ends one of 3 ways (end_type):
+    #  restart  = "SAFETY CAR IN THIS LAP", racing starts when the leader starts the next lap
+    #  red_flag = race got stopped while the sc was out
+    #  race_end = chequered flag came out under the sc
     rc = rc.sort_values("date").reset_index(drop=True)
     events = []
     active = None
 
+    chequered = rc.loc[rc["flag"] == "CHEQUERED", "date"]
+    chequered_time = chequered.min() if not chequered.empty else pd.NaT
+
     for _, row in rc.iterrows():
         msg = str(row["message"]).upper()
-        is_sc = row["category"] == "SafetyCar" and "VIRTUAL" not in msg
+        #2026 writes "VSC DEPLOYED" instead of "VIRTUAL SAFETY CAR DEPLOYED"
+        is_vsc = "VSC" in msg or "VIRTUAL" in msg
+        is_sc = row["category"] == "SafetyCar" and not is_vsc
 
         if is_sc and "DEPLOYED" in msg:
-            if active is None:
+            if active is not None:
+                active["flags"].append("duplicate sc deployed")
+            elif events and events[-1]["end_type"] == "restart" and row["date"] < events[-1]["end_time"]:
+                #sc got sent out again before the restart actually happened, so its the same sc
+                active = events.pop()
+                active["flags"].append("sc redeployed before restart")
+                for k in ["end_type", "end_time", "end_message", "restart_lap"]:
+                    active.pop(k, None)
+            else:
                 active = {
                     "deployed_time": row["date"],
                     "deploy_lap": row["lap_number"],
                     "deploy_message": row["message"],
                     "flags": []
                 }
-            else:
-                active["flags"].append("duplicate sc deployed")
 
         elif active is not None and is_sc and "IN THIS LAP" in msg:
             restart_lap = int(row["lap_number"]) + 1
+            active["end_type"] = "restart"
             active["end_message"] = row["message"]
             active["restart_lap"] = restart_lap
-            active["restart_time"] = lap_start_time(laps, restart_lap)
-            if pd.isna(active["restart_time"]):
+            active["end_time"] = lap_start_time(laps, restart_lap)
+            if pd.isna(active["end_time"]) and restart_lap > laps["lap_number"].max() and pd.notna(chequered_time):
+                #sc came in on the last lap, the race finished before any restart
+                active["end_type"] = "race_end"
+                active["end_time"] = chequered_time
+                active.pop("restart_lap")
+            elif pd.isna(active["end_time"]):
                 active["flags"].append("restart lap missing in lap data")
             events.append(active)
             active = None
 
-        elif active is not None and row["flag"] == "RED":
-            active["flags"].append("red flag during sc")
+        elif active is not None and is_red(row):
+            active["end_type"] = "red_flag"
+            active["end_message"] = row["message"]
+            active["end_time"] = row["date"]
+            events.append(active)
+            active = None
+
+        elif active is not None and row["flag"] == "CHEQUERED":
+            active["end_type"] = "race_end"
+            active["end_message"] = row["message"]
+            active["end_time"] = row["date"]
+            events.append(active)
+            active = None
 
     if active is not None:
-        active["flags"].append("no sc in this lap found")
+        active["end_type"] = "missing"
+        active["flags"].append("no end found")
         events.append(active)
 
     sc = pd.DataFrame(events)
     if sc.empty:
         return sc
 
-    for col in ["end_message", "restart_lap", "restart_time"]:
+    for col in ["end_message", "restart_lap", "end_time"]:
         if col not in sc:
             sc[col] = None
-    sc["restart_time"] = pd.to_datetime(sc["restart_time"], utc=True)
+    sc["end_time"] = pd.to_datetime(sc["end_time"], utc=True)
 
     sc.insert(0, "sc_event_number", range(1, len(sc) + 1))
-    sc["end_found"] = sc["restart_time"].notna()
-    sc["duration_seconds"] = (sc["restart_time"] - sc["deployed_time"]).dt.total_seconds()
+    sc["end_found"] = sc["end_time"].notna()
+    sc["duration_seconds"] = (sc["end_time"] - sc["deployed_time"]).dt.total_seconds()
     sc["validation_status"] = sc["flags"].apply(lambda f: "ok" if len(f) == 0 else "review")
     sc["flags"] = sc["flags"].apply(lambda f: "; ".join(f))
     return sc
@@ -89,9 +124,11 @@ def pos_at(pos, drv, t):
 
 def driver_positions(sc_row, laps, pos, pits, drivers, results):
     start = sc_row["deployed_time"]
-    restart = sc_row["restart_time"]
+    end = sc_row["end_time"]
+    #positions only get compared for normal restarts
     #after = end of the first racing lap, so when the leader starts the lap after the restart
-    after_time = lap_start_time(laps, sc_row["restart_lap"] + 1) if pd.notna(restart) else pd.NaT
+    is_restart = sc_row["end_type"] == "restart" and pd.notna(end)
+    after_time = lap_start_time(laps, sc_row["restart_lap"] + 1) if is_restart else pd.NaT
     rows = []
 
     for _, d in drivers.iterrows():
@@ -104,14 +141,17 @@ def driver_positions(sc_row, laps, pos, pits, drivers, results):
         after = pos_at(pos, drv, after_time) if pd.notna(after_time) else None
 
         #pitted if a pit entry happened while the sc was out
-        pitted = bool(((d_pits["date"] >= start) & (d_pits["date"] <= restart)).any()) if pd.notna(restart) else False
+        pitted = bool(((d_pits["date"] >= start) & (d_pits["date"] <= end)).any()) if pd.notna(end) else False
 
         #running after a time = started some lap after that time
         running_at_start = (d_laps["date_start"] > start).any()
-        running_after = (d_laps["date_start"] > restart).any() if pd.notna(restart) else False
+        running_after = (d_laps["date_start"] > end).any() if pd.notna(end) else False
 
-        if pd.isna(after_time):
-            reason = "sc end not found"
+        if not is_restart:
+            #red flag or race end, no normal restart to compare against
+            reason = f"sc ended by {sc_row['end_type']}"
+        elif pd.isna(after_time):
+            reason = "no lap after restart"
         elif not running_at_start:
             #includes drivers whose crash brought the sc out
             reason = "out at or before sc start"
@@ -147,61 +187,77 @@ def driver_positions(sc_row, laps, pos, pits, drivers, results):
     return rows
 
 
-#pull everything for the race, saved to data/raw/openf1 the first time
-race = find_race(YEAR, COUNTRY)
-key = race["session_key"]
-print(f"\n{YEAR} {race['country_name']} ({race['circuit_short_name']}), session_key {key}")
+def process_race(race):
+    #pulls one race (saved to data/raw/openf1 the first time) and returns sc events + driver impact
+    key = race["session_key"]
 
-rc = get("race_control", session_key=key)
-laps = get("laps", session_key=key)
-pos = get("position", session_key=key)
-pits = get("pit", session_key=key)
-drivers = get("drivers", session_key=key)
-results = get("session_result", session_key=key)
+    rc = get("race_control", session_key=key)
+    laps = get("laps", session_key=key)
+    pos = get("position", session_key=key)
+    pits = get("pit", session_key=key)
+    drivers = get("drivers", session_key=key)
+    results = get("session_result", session_key=key)
 
-#text dates to real times
-rc["date"] = to_time(rc["date"])
-laps["date_start"] = to_time(laps["date_start"])
-pos["date"] = to_time(pos["date"])
-pos = pos.sort_values("date")
-if not pits.empty:
-    pits["date"] = to_time(pits["date"])
-else:
-    pits = pd.DataFrame(columns=["driver_number", "date"])
+    #text dates to real times
+    rc["date"] = to_time(rc["date"])
+    laps["date_start"] = to_time(laps["date_start"])
+    pos["date"] = to_time(pos["date"])
+    pos = pos.sort_values("date")
+    if not pits.empty:
+        pits["date"] = to_time(pits["date"])
+    else:
+        pits = pd.DataFrame(columns=["driver_number", "date"])
 
-#raw sc and red flag messages so we can check the matching worked
-check = rc[(rc["category"] == "SafetyCar") | (rc["flag"] == "RED")]
-print("\n--- safety car / red flag messages ---")
-print(check[["date", "lap_number", "category", "flag", "message"]].to_string(index=False))
+    sc = get_sc_events(rc, laps)
+    if sc.empty:
+        return sc, pd.DataFrame(), rc
 
-sc = get_sc_events(rc, laps)
-
-if sc.empty:
-    print("\nno full safety car in this race")
-else:
-    sc.insert(0, "season", YEAR)
-    sc.insert(1, "session_key", key)
-    sc.insert(2, "event_name", race["country_name"])
-    sc["source"] = "openf1"
-
-    print(f"\nfull safety cars: {len(sc)}")
-    print(sc[["sc_event_number", "deploy_lap", "restart_lap", "duration_seconds",
-              "validation_status", "flags"]].to_string(index=False))
+    info = {"season": race["year"], "session_key": key,
+            "country": race["country_name"], "circuit": race["circuit_short_name"]}
 
     all_rows = []
     for _, sc_row in sc.iterrows():
         all_rows.extend(driver_positions(sc_row, laps, pos, pits, drivers, results))
     impact = pd.DataFrame(all_rows)
-    impact.insert(0, "season", YEAR)
-    impact.insert(1, "session_key", key)
 
-    show = ["driver", "team", "position_before", "position_after", "position_gain",
-            "pitted_during_sc", "finish_position", "exclusion_reason"]
-    for num, grp in impact.groupby("sc_event_number"):
-        print(f"\n--- sc {num} ---")
-        print(grp.sort_values("position_gain", ascending=False)[show].to_string(index=False))
+    #race info at the front of both tables
+    for i, (k, v) in enumerate(info.items()):
+        sc.insert(i, k, v)
+        impact.insert(i, k, v)
+    sc["source"] = "openf1"
+    return sc, impact, rc
 
-    tag = f"{YEAR}_{COUNTRY.replace(' ', '_').lower()}"
-    sc.to_csv(OUT_DIR / f"openf1_sc_events_{tag}.csv", index=False)
-    impact.to_csv(OUT_DIR / f"openf1_driver_sc_impact_{tag}.csv", index=False)
-    print(f"\nsaved openf1_sc_events_{tag}.csv and openf1_driver_sc_impact_{tag}.csv to data/processed")
+
+#only runs when this file is run directly, not when run_all.py imports it
+if __name__ == "__main__":
+    #run it like: python sc_openf1.py Qatar 2024 (defaults to canada 2024)
+    country = sys.argv[1] if len(sys.argv) > 1 else "Canada"
+    year = int(sys.argv[2]) if len(sys.argv) > 2 else 2024
+
+    race = find_race(year, country)
+    print(f"\n{year} {race['country_name']} ({race['circuit_short_name']}), session_key {race['session_key']}")
+
+    sc, impact, rc = process_race(race)
+
+    #raw sc and red flag messages so we can check the matching worked
+    check = rc[(rc["category"] == "SafetyCar") | (rc["flag"] == "RED")]
+    print("\n--- safety car / red flag messages ---")
+    print(check[["date", "lap_number", "category", "flag", "message"]].to_string(index=False))
+
+    if sc.empty:
+        print("\nno full safety car in this race")
+    else:
+        print(f"\nfull safety cars: {len(sc)}")
+        print(sc[["sc_event_number", "deploy_lap", "end_type", "restart_lap", "duration_seconds",
+                  "validation_status", "flags"]].to_string(index=False))
+
+        show = ["driver", "team", "position_before", "position_after", "position_gain",
+                "pitted_during_sc", "finish_position", "exclusion_reason"]
+        for num, grp in impact.groupby("sc_event_number"):
+            print(f"\n--- sc {num} ---")
+            print(grp.sort_values("position_gain", ascending=False)[show].to_string(index=False))
+
+        tag = f"{year}_{country.replace(' ', '_').lower()}"
+        sc.to_csv(OUT_DIR / f"openf1_sc_events_{tag}.csv", index=False)
+        impact.to_csv(OUT_DIR / f"openf1_driver_sc_impact_{tag}.csv", index=False)
+        print(f"\nsaved openf1_sc_events_{tag}.csv and openf1_driver_sc_impact_{tag}.csv to data/processed")
