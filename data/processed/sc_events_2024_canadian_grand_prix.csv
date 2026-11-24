@@ -1,0 +1,3 @@
+season,round,event_name,sc_event_number,deployed_time,deployment_status_code,deployment_message,flags,all_clear_time,end_status_code,end_message,end_found,duration_seconds,validation_status,source,start_lap,end_lap
+2024,9,Canadian Grand Prix,1,0 days 00:41:20.356000,4,SCDeployed,,0 days 00:49:59.274000,1,AllClear,True,518.918,ok,fastf1,25,29
+2024,9,Canadian Grand Prix,2,0 days 01:24:53.375000,4,SCDeployed,,0 days 01:34:00.072000,1,AllClear,True,546.697,ok,fastf1,54,58

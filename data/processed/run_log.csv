@@ -1,0 +1,91 @@
+season,session_key,race,sc_events,needs_review,status
+2023,7953,2023 Bahrain (Sakhir),0,0,ok
+2023,7779,2023 Saudi Arabia (Jeddah),1,0,ok
+2023,7787,2023 Australia (Melbourne),3,0,ok
+2023,9070,2023 Azerbaijan (Baku),1,0,ok
+2023,9078,2023 United States (Miami),0,0,ok
+2023,9094,2023 Monaco (Monte Carlo),0,0,ok
+2023,9102,2023 Spain (Catalunya),0,0,ok
+2023,9110,2023 Canada (Montreal),1,0,ok
+2023,9118,2023 Austria (Spielberg),1,0,ok
+2023,9126,2023 United Kingdom (Silverstone),1,0,ok
+2023,9133,2023 Hungary (Hungaroring),0,0,ok
+2023,9141,2023 Belgium (Spa-Francorchamps),0,0,ok
+2023,9149,2023 Netherlands (Zandvoort),1,0,ok
+2023,9157,2023 Italy (Monza),0,0,ok
+2023,9165,2023 Singapore (Singapore),1,0,ok
+2023,9173,2023 Japan (Suzuka),1,0,ok
+2023,9221,2023 Qatar (Lusail),1,0,ok
+2023,9213,2023 United States (Austin),0,0,ok
+2023,9181,2023 Mexico (Mexico City),1,0,ok
+2023,9205,2023 Brazil (Interlagos),1,0,ok
+2023,9189,2023 United States (Las Vegas),2,0,ok
+2023,9197,2023 United Arab Emirates (Yas Marina Circuit),0,0,ok
+2024,9472,2024 Bahrain (Sakhir),0,0,ok
+2024,9480,2024 Saudi Arabia (Jeddah),1,0,ok
+2024,9488,2024 Australia (Melbourne),0,0,ok
+2024,9496,2024 Japan (Suzuka),0,0,ok
+2024,9673,2024 China (Shanghai),2,0,ok
+2024,9507,2024 United States (Miami),1,0,ok
+2024,9515,2024 Italy (Imola),0,0,ok
+2024,9523,2024 Monaco (Monte Carlo),0,0,ok
+2024,9531,2024 Canada (Montreal),2,0,ok
+2024,9539,2024 Spain (Catalunya),0,0,ok
+2024,9550,2024 Austria (Spielberg),0,0,ok
+2024,9558,2024 United Kingdom (Silverstone),0,0,ok
+2024,9566,2024 Hungary (Hungaroring),0,0,ok
+2024,9574,2024 Belgium (Spa-Francorchamps),0,0,ok
+2024,9582,2024 Netherlands (Zandvoort),0,0,ok
+2024,9590,2024 Italy (Monza),0,0,ok
+2024,9598,2024 Azerbaijan (Baku),0,0,ok
+2024,9606,2024 Singapore (Singapore),0,0,ok
+2024,9617,2024 United States (Austin),1,0,ok
+2024,9625,2024 Mexico (Mexico City),1,0,ok
+2024,9636,2024 Brazil (Interlagos),2,0,ok
+2024,9644,2024 United States (Las Vegas),0,0,ok
+2024,9655,2024 Qatar (Lusail),3,0,ok
+2024,9662,2024 United Arab Emirates (Yas Marina Circuit),0,0,ok
+2025,9693,2025 Australia (Melbourne),3,0,ok
+2025,9998,2025 China (Shanghai),0,0,ok
+2025,10006,2025 Japan (Suzuka),0,0,ok
+2025,10014,2025 Bahrain (Sakhir),1,0,ok
+2025,10022,2025 Saudi Arabia (Jeddah),1,0,ok
+2025,10033,2025 United States (Miami),0,0,ok
+2025,9987,2025 Italy (Imola),1,0,ok
+2025,9979,2025 Monaco (Monte Carlo),0,0,ok
+2025,9971,2025 Spain (Catalunya),1,0,ok
+2025,9963,2025 Canada (Montreal),1,0,ok
+2025,9955,2025 Austria (Spielberg),1,0,ok
+2025,9947,2025 United Kingdom (Silverstone),2,0,ok
+2025,9939,2025 Belgium (Spa-Francorchamps),0,0,ok
+2025,9928,2025 Hungary (Hungaroring),0,0,ok
+2025,9920,2025 Netherlands (Zandvoort),3,0,ok
+2025,9912,2025 Italy (Monza),0,0,ok
+2025,9904,2025 Azerbaijan (Baku),1,0,ok
+2025,9896,2025 Singapore (Singapore),0,0,ok
+2025,9888,2025 United States (Austin),0,0,ok
+2025,9877,2025 Mexico (Mexico City),0,0,ok
+2025,9869,2025 Brazil (Interlagos),1,0,ok
+2025,9858,2025 United States (Las Vegas),0,0,ok
+2025,9850,2025 Qatar (Lusail),1,0,ok
+2025,9839,2025 United Arab Emirates (Yas Marina Circuit),0,0,ok
+2026,11234,2026 Australia (Melbourne),0,0,ok
+2026,11245,2026 China (Shanghai),1,0,ok
+2026,11253,2026 Japan (Suzuka),1,0,ok
+2026,11280,2026 United States (Miami),1,0,ok
+2026,11291,2026 Canada (Montreal),0,0,ok
+2026,11299,2026 Monaco (Monte Carlo),2,0,ok
+2026,11307,2026 Spain (Catalunya),0,0,ok
+2026,11315,2026 Austria (Spielberg),0,0,ok
+2026,11326,2026 United Kingdom (Silverstone),1,1,ok
+2026,11334,2026 Belgium (Spa-Francorchamps),1,0,ok
+2026,11342,2026 Hungary (Hungaroring),0,0,ok
+2026,11353,2026 Netherlands (Zandvoort),0,0,ok
+2026,11361,2026 Italy (Monza),1,0,ok
+2026,11369,2026 Spain (Madring),0,0,ok
+2026,11377,2026 Azerbaijan (Baku),2,0,ok
+2026,11731,2026 Bahrain (Kuala Lumpur),2,0,ok
+2026,11388,2026 Singapore (Singapore),0,0,ok
+2026,11396,2026 United States (Austin),0,0,ok
+2026,11404,2026 Mexico (Mexico City),2,0,ok
+2026,11412,2026 Brazil (Interlagos),0,0,ok

@@ -1,6 +1,5 @@
-#downloaded data, can be rebuilt by running the scripts
+#old fastf1 cache, too big and cant be downloaded again
 f1_cache/
-data/
 
 #python and mac junk
 __pycache__/

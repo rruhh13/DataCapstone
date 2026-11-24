@@ -1,0 +1,1227 @@
+season,session_key,country,circuit,sc_event_number,driver_number,driver,team,position_before,position_after,position_gain,pitted_during_sc,finish_position,race_status,eligible_for_position_comparison,exclusion_reason
+2023,7779,Saudi Arabia,Jeddah,1,1,VER,Red Bull Racing,4,4.0,0.0,False,2.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,2,SAR,Williams,11,14.0,-3.0,False,16.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,4,NOR,McLaren,19,19.0,0.0,False,17.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,10,GAS,Alpine,13,10.0,3.0,False,9.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,11,PER,Red Bull Racing,1,1.0,0.0,False,1.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,14,ALO,Aston Martin,2,2.0,0.0,False,3.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,16,LEC,Ferrari,8,7.0,1.0,False,7.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,18,STR,Aston Martin,20,,,False,,dnf,False,out at or before sc start
+2023,7779,Saudi Arabia,Jeddah,1,20,MAG,Haas F1 Team,14,11.0,3.0,False,10.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,21,DEV,AlphaTauri,10,15.0,-5.0,False,14.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,22,TSU,AlphaTauri,6,8.0,-2.0,False,11.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,23,ALB,Williams,9,13.0,-4.0,False,,dnf,True,
+2023,7779,Saudi Arabia,Jeddah,1,24,ZHO,Alfa Romeo,15,16.0,-1.0,False,13.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,27,HUL,Haas F1 Team,16,12.0,4.0,False,12.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,31,OCO,Alpine,12,9.0,3.0,False,8.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,44,HAM,Mercedes,5,6.0,-1.0,False,5.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,55,SAI,Ferrari,7,5.0,2.0,False,6.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,63,RUS,Mercedes,3,3.0,0.0,False,4.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,77,BOT,Alfa Romeo,18,18.0,0.0,False,18.0,finished,True,
+2023,7779,Saudi Arabia,Jeddah,1,81,PIA,McLaren,17,17.0,0.0,False,15.0,finished,True,
+2023,7787,Australia,Melbourne,1,1,VER,Red Bull Racing,3,3.0,0.0,False,1.0,finished,True,
+2023,7787,Australia,Melbourne,1,2,SAR,Williams,17,19.0,-2.0,False,16.0,dnf,True,
+2023,7787,Australia,Melbourne,1,4,NOR,McLaren,12,11.0,1.0,False,6.0,finished,True,
+2023,7787,Australia,Melbourne,1,10,GAS,Alpine,8,8.0,0.0,False,13.0,dnf,True,
+2023,7787,Australia,Melbourne,1,11,PER,Red Bull Racing,18,17.0,1.0,False,5.0,finished,True,
+2023,7787,Australia,Melbourne,1,14,ALO,Aston Martin,5,5.0,0.0,False,3.0,finished,True,
+2023,7787,Australia,Melbourne,1,16,LEC,Ferrari,20,20.0,0.0,False,,dnf,True,
+2023,7787,Australia,Melbourne,1,18,STR,Aston Martin,7,7.0,0.0,False,4.0,finished,True,
+2023,7787,Australia,Melbourne,1,20,MAG,Haas F1 Team,13,12.0,1.0,False,17.0,dnf,True,
+2023,7787,Australia,Melbourne,1,21,DEV,AlphaTauri,16,14.0,2.0,False,15.0,dnf,True,
+2023,7787,Australia,Melbourne,1,22,TSU,AlphaTauri,11,10.0,1.0,False,10.0,finished,True,
+2023,7787,Australia,Melbourne,1,23,ALB,Williams,6,6.0,0.0,False,,dnf,True,
+2023,7787,Australia,Melbourne,1,24,ZHO,Alfa Romeo,15,16.0,-1.0,False,9.0,finished,True,
+2023,7787,Australia,Melbourne,1,27,HUL,Haas F1 Team,10,9.0,1.0,False,7.0,finished,True,
+2023,7787,Australia,Melbourne,1,31,OCO,Alpine,9,15.0,-6.0,False,14.0,dnf,True,
+2023,7787,Australia,Melbourne,1,44,HAM,Mercedes,2,2.0,0.0,False,2.0,finished,True,
+2023,7787,Australia,Melbourne,1,55,SAI,Ferrari,4,4.0,0.0,False,12.0,finished,True,
+2023,7787,Australia,Melbourne,1,63,RUS,Mercedes,1,1.0,0.0,False,,dnf,True,
+2023,7787,Australia,Melbourne,1,77,BOT,Alfa Romeo,19,18.0,1.0,False,11.0,finished,True,
+2023,7787,Australia,Melbourne,1,81,PIA,McLaren,14,13.0,1.0,False,8.0,finished,True,
+2023,7787,Australia,Melbourne,2,1,VER,Red Bull Racing,3,,,False,1.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,2,SAR,Williams,18,,,False,16.0,dnf,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,4,NOR,McLaren,10,,,False,6.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,10,GAS,Alpine,7,,,False,13.0,dnf,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,11,PER,Red Bull Racing,15,,,False,5.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,14,ALO,Aston Martin,5,,,False,3.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,16,LEC,Ferrari,20,,,False,,dnf,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,18,STR,Aston Martin,6,,,False,4.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,20,MAG,Haas F1 Team,11,,,False,17.0,dnf,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,21,DEV,AlphaTauri,13,,,False,15.0,dnf,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,22,TSU,AlphaTauri,9,,,False,10.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,23,ALB,Williams,19,,,False,,dnf,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,24,ZHO,Alfa Romeo,16,,,False,9.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,27,HUL,Haas F1 Team,8,,,False,7.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,31,OCO,Alpine,14,,,False,14.0,dnf,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,44,HAM,Mercedes,2,,,False,2.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,55,SAI,Ferrari,4,,,False,12.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,63,RUS,Mercedes,1,,,False,,dnf,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,77,BOT,Alfa Romeo,17,,,False,11.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,2,81,PIA,McLaren,12,,,False,8.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,1,VER,Red Bull Racing,1,,,False,1.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,2,SAR,Williams,15,,,False,16.0,dnf,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,4,NOR,McLaren,8,,,False,6.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,10,GAS,Alpine,5,,,False,13.0,dnf,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,11,PER,Red Bull Racing,7,,,False,5.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,14,ALO,Aston Martin,3,,,False,3.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,16,LEC,Ferrari,20,,,False,,dnf,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,18,STR,Aston Martin,6,,,False,4.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,20,MAG,Haas F1 Team,17,,,False,17.0,dnf,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,21,DEV,AlphaTauri,16,,,False,15.0,dnf,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,22,TSU,AlphaTauri,13,,,False,10.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,23,ALB,Williams,19,,,False,,dnf,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,24,ZHO,Alfa Romeo,12,,,False,9.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,27,HUL,Haas F1 Team,9,,,False,7.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,31,OCO,Alpine,10,,,False,14.0,dnf,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,44,HAM,Mercedes,2,,,False,2.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,55,SAI,Ferrari,4,,,False,12.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,63,RUS,Mercedes,18,,,False,,dnf,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,77,BOT,Alfa Romeo,14,,,False,11.0,finished,False,sc ended by red_flag
+2023,7787,Australia,Melbourne,3,81,PIA,McLaren,11,,,False,8.0,finished,False,sc ended by red_flag
+2023,9070,Azerbaijan,Baku,1,1,VER,Red Bull Racing,7,2.0,5.0,False,2.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,2,SAR,Williams,18,18.0,0.0,False,16.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,4,NOR,McLaren,13,11.0,2.0,False,9.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,10,GAS,Alpine,17,15.0,2.0,False,14.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,11,PER,Red Bull Racing,1,1.0,0.0,False,1.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,14,ALO,Aston Martin,4,4.0,0.0,False,4.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,16,LEC,Ferrari,2,3.0,-1.0,False,3.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,18,STR,Aston Martin,5,6.0,-1.0,False,7.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,20,MAG,Haas F1 Team,12,17.0,-5.0,False,13.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,21,DEV,AlphaTauri,20,,,False,,dnf,False,out at or before sc start
+2023,9070,Azerbaijan,Baku,1,22,TSU,AlphaTauri,14,12.0,2.0,False,10.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,23,ALB,Williams,16,14.0,2.0,False,12.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,24,ZHO,Alfa Romeo,8,16.0,-8.0,False,,dnf,True,
+2023,9070,Azerbaijan,Baku,1,27,HUL,Haas F1 Team,10,10.0,0.0,False,17.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,31,OCO,Alpine,9,9.0,0.0,False,15.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,44,HAM,Mercedes,11,8.0,3.0,False,6.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,55,SAI,Ferrari,3,5.0,-2.0,False,5.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,63,RUS,Mercedes,6,7.0,-1.0,False,8.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,77,BOT,Alfa Romeo,19,19.0,0.0,False,18.0,finished,True,
+2023,9070,Azerbaijan,Baku,1,81,PIA,McLaren,15,13.0,2.0,False,11.0,finished,True,
+2023,9110,Canada,Montreal,1,1,VER,Red Bull Racing,1,1.0,0.0,True,1.0,finished,True,
+2023,9110,Canada,Montreal,1,2,SAR,Williams,20,,,False,,dnf,False,out at or before sc start
+2023,9110,Canada,Montreal,1,4,NOR,McLaren,7,10.0,-3.0,True,13.0,finished,True,
+2023,9110,Canada,Montreal,1,10,GAS,Alpine,19,18.0,1.0,False,12.0,finished,True,
+2023,9110,Canada,Montreal,1,11,PER,Red Bull Racing,11,6.0,5.0,False,6.0,finished,True,
+2023,9110,Canada,Montreal,1,14,ALO,Aston Martin,3,3.0,0.0,True,2.0,finished,True,
+2023,9110,Canada,Montreal,1,16,LEC,Ferrari,8,4.0,4.0,False,4.0,finished,True,
+2023,9110,Canada,Montreal,1,18,STR,Aston Martin,17,16.0,1.0,False,9.0,finished,True,
+2023,9110,Canada,Montreal,1,20,MAG,Haas F1 Team,12,7.0,5.0,False,17.0,finished,True,
+2023,9110,Canada,Montreal,1,21,DEV,AlphaTauri,18,17.0,1.0,False,18.0,finished,True,
+2023,9110,Canada,Montreal,1,22,TSU,AlphaTauri,15,13.0,2.0,False,14.0,finished,True,
+2023,9110,Canada,Montreal,1,23,ALB,Williams,9,12.0,-3.0,True,7.0,finished,True,
+2023,9110,Canada,Montreal,1,24,ZHO,Alfa Romeo,14,14.0,0.0,True,16.0,finished,True,
+2023,9110,Canada,Montreal,1,27,HUL,Haas F1 Team,16,15.0,1.0,False,15.0,finished,True,
+2023,9110,Canada,Montreal,1,31,OCO,Alpine,4,9.0,-5.0,True,8.0,finished,True,
+2023,9110,Canada,Montreal,1,44,HAM,Mercedes,2,2.0,0.0,True,3.0,finished,True,
+2023,9110,Canada,Montreal,1,55,SAI,Ferrari,10,5.0,5.0,False,5.0,finished,True,
+2023,9110,Canada,Montreal,1,63,RUS,Mercedes,5,19.0,-14.0,True,,dnf,True,
+2023,9110,Canada,Montreal,1,77,BOT,Alfa Romeo,13,8.0,5.0,False,10.0,finished,True,
+2023,9110,Canada,Montreal,1,81,PIA,McLaren,6,11.0,-5.0,True,11.0,finished,True,
+2023,9118,Austria,Spielberg,1,1,VER,Red Bull Racing,1,1.0,0.0,True,1.0,finished,True,
+2023,9118,Austria,Spielberg,1,2,SAR,Williams,16,16.0,0.0,True,13.0,finished,True,
+2023,9118,Austria,Spielberg,1,4,NOR,McLaren,5,5.0,0.0,True,4.0,finished,True,
+2023,9118,Austria,Spielberg,1,10,GAS,Alpine,9,9.0,0.0,True,10.0,finished,True,
+2023,9118,Austria,Spielberg,1,11,PER,Red Bull Racing,13,13.0,0.0,True,3.0,finished,True,
+2023,9118,Austria,Spielberg,1,14,ALO,Aston Martin,6,6.0,0.0,True,5.0,finished,True,
+2023,9118,Austria,Spielberg,1,16,LEC,Ferrari,2,2.0,0.0,True,2.0,finished,True,
+2023,9118,Austria,Spielberg,1,18,STR,Aston Martin,8,8.0,0.0,True,9.0,finished,True,
+2023,9118,Austria,Spielberg,1,20,MAG,Haas F1 Team,18,20.0,-2.0,True,18.0,finished,True,
+2023,9118,Austria,Spielberg,1,21,DEV,AlphaTauri,19,19.0,0.0,True,17.0,finished,True,
+2023,9118,Austria,Spielberg,1,22,TSU,AlphaTauri,20,17.0,3.0,True,19.0,finished,True,
+2023,9118,Austria,Spielberg,1,23,ALB,Williams,10,10.0,0.0,True,11.0,finished,True,
+2023,9118,Austria,Spielberg,1,24,ZHO,Alfa Romeo,14,14.0,0.0,True,12.0,finished,True,
+2023,9118,Austria,Spielberg,1,27,HUL,Haas F1 Team,7,7.0,0.0,True,,dnf,True,
+2023,9118,Austria,Spielberg,1,31,OCO,Alpine,11,12.0,-1.0,True,14.0,finished,True,
+2023,9118,Austria,Spielberg,1,44,HAM,Mercedes,4,4.0,0.0,True,8.0,finished,True,
+2023,9118,Austria,Spielberg,1,55,SAI,Ferrari,3,3.0,0.0,True,6.0,finished,True,
+2023,9118,Austria,Spielberg,1,63,RUS,Mercedes,12,11.0,1.0,True,7.0,finished,True,
+2023,9118,Austria,Spielberg,1,77,BOT,Alfa Romeo,17,18.0,-1.0,True,15.0,finished,True,
+2023,9118,Austria,Spielberg,1,81,PIA,McLaren,15,15.0,0.0,True,16.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,1,VER,Red Bull Racing,1,1.0,0.0,True,1.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,2,SAR,Williams,13,13.0,0.0,False,11.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,4,NOR,McLaren,2,2.0,0.0,True,2.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,10,GAS,Alpine,11,12.0,-1.0,False,18.0,dnf,True,
+2023,9126,United Kingdom,Silverstone,1,11,PER,Red Bull Racing,8,8.0,0.0,False,6.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,14,ALO,Aston Martin,4,6.0,-2.0,True,7.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,16,LEC,Ferrari,10,10.0,0.0,False,9.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,18,STR,Aston Martin,12,11.0,1.0,False,14.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,20,MAG,Haas F1 Team,19,,,False,,dnf,False,out at or before sc start
+2023,9126,United Kingdom,Silverstone,1,21,DEV,AlphaTauri,17,17.0,0.0,True,17.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,22,TSU,AlphaTauri,16,15.0,1.0,False,16.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,23,ALB,Williams,9,9.0,0.0,False,8.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,24,ZHO,Alfa Romeo,15,18.0,-3.0,True,15.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,27,HUL,Haas F1 Team,18,16.0,2.0,True,13.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,31,OCO,Alpine,20,,,False,,dnf,False,out at or before sc start
+2023,9126,United Kingdom,Silverstone,1,44,HAM,Mercedes,3,3.0,0.0,True,3.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,55,SAI,Ferrari,7,7.0,0.0,False,10.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,63,RUS,Mercedes,6,5.0,1.0,False,5.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,77,BOT,Alfa Romeo,14,14.0,0.0,False,12.0,finished,True,
+2023,9126,United Kingdom,Silverstone,1,81,PIA,McLaren,5,4.0,1.0,False,4.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,1,VER,Red Bull Racing,1,1.0,0.0,False,1.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,2,SAR,Williams,20,,,False,,dnf,False,out at or before sc start
+2023,9149,Netherlands,Zandvoort,1,4,NOR,McLaren,11,11.0,0.0,False,7.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,10,GAS,Alpine,4,4.0,0.0,False,3.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,11,PER,Red Bull Racing,2,2.0,0.0,False,4.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,14,ALO,Aston Martin,3,3.0,0.0,False,2.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,16,LEC,Ferrari,12,12.0,0.0,False,,dnf,True,
+2023,9149,Netherlands,Zandvoort,1,18,STR,Aston Martin,19,19.0,0.0,True,11.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,20,MAG,Haas F1 Team,7,7.0,0.0,False,16.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,22,TSU,AlphaTauri,10,10.0,0.0,False,15.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,23,ALB,Williams,8,8.0,0.0,False,8.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,24,ZHO,Alfa Romeo,6,6.0,0.0,False,,dnf,True,
+2023,9149,Netherlands,Zandvoort,1,27,HUL,Haas F1 Team,14,16.0,-2.0,True,12.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,31,OCO,Alpine,9,9.0,0.0,False,10.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,40,LAW,AlphaTauri,17,18.0,-1.0,True,13.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,44,HAM,Mercedes,15,13.0,2.0,False,6.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,55,SAI,Ferrari,5,5.0,0.0,False,5.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,63,RUS,Mercedes,18,17.0,1.0,True,17.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,77,BOT,Alfa Romeo,13,14.0,-1.0,True,14.0,finished,True,
+2023,9149,Netherlands,Zandvoort,1,81,PIA,McLaren,16,15.0,1.0,False,9.0,finished,True,
+2023,9165,Singapore,Singapore,1,1,VER,Red Bull Racing,8,3.0,5.0,False,5.0,finished,True,
+2023,9165,Singapore,Singapore,1,2,SAR,Williams,18,18.0,0.0,True,14.0,finished,True,
+2023,9165,Singapore,Singapore,1,4,NOR,McLaren,4,4.0,0.0,True,2.0,finished,True,
+2023,9165,Singapore,Singapore,1,10,GAS,Alpine,11,10.0,1.0,True,6.0,finished,True,
+2023,9165,Singapore,Singapore,1,11,PER,Red Bull Racing,13,5.0,8.0,False,8.0,finished,True,
+2023,9165,Singapore,Singapore,1,14,ALO,Aston Martin,6,8.0,-2.0,True,15.0,finished,True,
+2023,9165,Singapore,Singapore,1,16,LEC,Ferrari,2,7.0,-5.0,True,4.0,finished,True,
+2023,9165,Singapore,Singapore,1,20,MAG,Haas F1 Team,9,11.0,-2.0,True,10.0,finished,True,
+2023,9165,Singapore,Singapore,1,22,TSU,AlphaTauri,19,,,False,,dnf,False,out at or before sc start
+2023,9165,Singapore,Singapore,1,23,ALB,Williams,15,16.0,-1.0,True,11.0,finished,True,
+2023,9165,Singapore,Singapore,1,24,ZHO,Alfa Romeo,17,17.0,0.0,True,12.0,finished,True,
+2023,9165,Singapore,Singapore,1,27,HUL,Haas F1 Team,10,15.0,-5.0,True,13.0,finished,True,
+2023,9165,Singapore,Singapore,1,31,OCO,Alpine,7,9.0,-2.0,True,,dnf,True,
+2023,9165,Singapore,Singapore,1,40,LAW,AlphaTauri,12,14.0,-2.0,True,9.0,finished,True,
+2023,9165,Singapore,Singapore,1,44,HAM,Mercedes,5,6.0,-1.0,True,3.0,finished,True,
+2023,9165,Singapore,Singapore,1,55,SAI,Ferrari,1,1.0,0.0,True,1.0,finished,True,
+2023,9165,Singapore,Singapore,1,63,RUS,Mercedes,3,2.0,1.0,True,16.0,dnf,True,
+2023,9165,Singapore,Singapore,1,77,BOT,Alfa Romeo,16,12.0,4.0,False,,dnf,True,
+2023,9165,Singapore,Singapore,1,81,PIA,McLaren,14,13.0,1.0,True,7.0,finished,True,
+2023,9173,Japan,Suzuka,1,1,VER,Red Bull Racing,1,1.0,0.0,False,1.0,finished,True,
+2023,9173,Japan,Suzuka,1,2,SAR,Williams,17,19.0,-2.0,True,,dnf,True,
+2023,9173,Japan,Suzuka,1,4,NOR,McLaren,2,2.0,0.0,False,2.0,finished,True,
+2023,9173,Japan,Suzuka,1,10,GAS,Alpine,14,13.0,1.0,False,10.0,finished,True,
+2023,9173,Japan,Suzuka,1,11,PER,Red Bull Racing,7,18.0,-11.0,True,,dnf,True,
+2023,9173,Japan,Suzuka,1,14,ALO,Aston Martin,6,6.0,0.0,False,8.0,finished,True,
+2023,9173,Japan,Suzuka,1,16,LEC,Ferrari,4,4.0,0.0,False,4.0,finished,True,
+2023,9173,Japan,Suzuka,1,18,STR,Aston Martin,12,11.0,1.0,False,,dnf,True,
+2023,9173,Japan,Suzuka,1,20,MAG,Haas F1 Team,15,14.0,1.0,False,15.0,finished,True,
+2023,9173,Japan,Suzuka,1,22,TSU,AlphaTauri,11,10.0,1.0,False,12.0,finished,True,
+2023,9173,Japan,Suzuka,1,23,ALB,Williams,16,17.0,-1.0,True,,dnf,True,
+2023,9173,Japan,Suzuka,1,24,ZHO,Alfa Romeo,18,16.0,2.0,True,13.0,finished,True,
+2023,9173,Japan,Suzuka,1,27,HUL,Haas F1 Team,13,12.0,1.0,False,14.0,finished,True,
+2023,9173,Japan,Suzuka,1,31,OCO,Alpine,19,15.0,4.0,True,9.0,finished,True,
+2023,9173,Japan,Suzuka,1,40,LAW,AlphaTauri,10,9.0,1.0,False,11.0,finished,True,
+2023,9173,Japan,Suzuka,1,44,HAM,Mercedes,8,7.0,1.0,False,5.0,finished,True,
+2023,9173,Japan,Suzuka,1,55,SAI,Ferrari,5,5.0,0.0,False,6.0,finished,True,
+2023,9173,Japan,Suzuka,1,63,RUS,Mercedes,9,8.0,1.0,False,7.0,finished,True,
+2023,9173,Japan,Suzuka,1,77,BOT,Alfa Romeo,20,20.0,0.0,True,,dnf,True,
+2023,9173,Japan,Suzuka,1,81,PIA,McLaren,3,3.0,0.0,False,3.0,finished,True,
+2023,9221,Qatar,Lusail,1,1,VER,Red Bull Racing,1,1.0,0.0,False,1.0,finished,True,
+2023,9221,Qatar,Lusail,1,2,SAR,Williams,12,11.0,1.0,False,,dnf,True,
+2023,9221,Qatar,Lusail,1,4,NOR,McLaren,6,6.0,0.0,False,3.0,finished,True,
+2023,9221,Qatar,Lusail,1,10,GAS,Alpine,7,7.0,0.0,False,12.0,finished,True,
+2023,9221,Qatar,Lusail,1,11,PER,Red Bull Racing,18,13.0,5.0,False,10.0,finished,True,
+2023,9221,Qatar,Lusail,1,14,ALO,Aston Martin,3,3.0,0.0,False,6.0,finished,True,
+2023,9221,Qatar,Lusail,1,16,LEC,Ferrari,4,4.0,0.0,False,5.0,finished,True,
+2023,9221,Qatar,Lusail,1,18,STR,Aston Martin,13,17.0,-4.0,True,11.0,finished,True,
+2023,9221,Qatar,Lusail,1,20,MAG,Haas F1 Team,14,16.0,-2.0,True,14.0,finished,True,
+2023,9221,Qatar,Lusail,1,22,TSU,AlphaTauri,8,8.0,0.0,False,15.0,finished,True,
+2023,9221,Qatar,Lusail,1,23,ALB,Williams,11,10.0,1.0,False,13.0,finished,True,
+2023,9221,Qatar,Lusail,1,24,ZHO,Alfa Romeo,16,12.0,4.0,False,9.0,finished,True,
+2023,9221,Qatar,Lusail,1,27,HUL,Haas F1 Team,10,9.0,1.0,False,16.0,finished,True,
+2023,9221,Qatar,Lusail,1,31,OCO,Alpine,5,5.0,0.0,False,7.0,finished,True,
+2023,9221,Qatar,Lusail,1,40,LAW,AlphaTauri,15,18.0,-3.0,True,17.0,finished,True,
+2023,9221,Qatar,Lusail,1,44,HAM,Mercedes,19,,,False,,dnf,False,out at or before sc start
+2023,9221,Qatar,Lusail,1,55,SAI,Ferrari,20,,,False,,dns,False,out at or before sc start
+2023,9221,Qatar,Lusail,1,63,RUS,Mercedes,17,14.0,3.0,True,4.0,finished,True,
+2023,9221,Qatar,Lusail,1,77,BOT,Alfa Romeo,9,15.0,-6.0,True,8.0,finished,True,
+2023,9221,Qatar,Lusail,1,81,PIA,McLaren,2,2.0,0.0,False,2.0,finished,True,
+2023,9181,Mexico,Mexico City,1,1,VER,Red Bull Racing,1,,,True,1.0,finished,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,2,SAR,Williams,15,,,False,16.0,dnf,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,3,RIC,AlphaTauri,5,,,False,7.0,finished,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,4,NOR,McLaren,8,,,True,5.0,finished,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,10,GAS,Alpine,12,,,False,11.0,finished,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,11,PER,Red Bull Racing,20,,,False,,dnf,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,14,ALO,Aston Martin,18,,,False,,dnf,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,16,LEC,Ferrari,2,,,False,3.0,finished,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,18,STR,Aston Martin,17,,,False,17.0,dnf,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,20,MAG,Haas F1 Team,19,,,False,,dnf,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,22,TSU,AlphaTauri,10,,,False,12.0,finished,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,23,ALB,Williams,9,,,True,9.0,finished,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,24,ZHO,Alfa Romeo,13,,,False,14.0,finished,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,27,HUL,Haas F1 Team,11,,,False,13.0,finished,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,31,OCO,Alpine,14,,,False,10.0,finished,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,44,HAM,Mercedes,3,,,False,2.0,finished,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,55,SAI,Ferrari,4,,,False,4.0,finished,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,63,RUS,Mercedes,7,,,False,6.0,finished,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,77,BOT,Alfa Romeo,16,,,False,15.0,finished,False,sc ended by red_flag
+2023,9181,Mexico,Mexico City,1,81,PIA,McLaren,6,,,False,8.0,finished,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,1,VER,Red Bull Racing,1,,,True,1.0,finished,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,2,SAR,Williams,15,,,True,11.0,finished,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,3,RIC,AlphaTauri,16,,,False,13.0,finished,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,4,NOR,McLaren,2,,,True,2.0,finished,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,10,GAS,Alpine,12,,,True,7.0,finished,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,11,PER,Red Bull Racing,7,,,True,4.0,finished,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,14,ALO,Aston Martin,4,,,True,3.0,finished,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,16,LEC,Ferrari,19,,,False,,dns,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,18,STR,Aston Martin,5,,,True,5.0,finished,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,20,MAG,Haas F1 Team,18,,,False,,dnf,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,22,TSU,AlphaTauri,11,,,True,9.0,finished,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,23,ALB,Williams,20,,,False,,dnf,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,24,ZHO,Alfa Romeo,14,,,True,,dnf,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,27,HUL,Haas F1 Team,17,,,True,12.0,finished,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,31,OCO,Alpine,9,,,True,10.0,finished,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,44,HAM,Mercedes,3,,,True,8.0,finished,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,55,SAI,Ferrari,8,,,True,6.0,finished,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,63,RUS,Mercedes,6,,,True,,dnf,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,77,BOT,Alfa Romeo,13,,,True,,dnf,False,sc ended by red_flag
+2023,9205,Brazil,Interlagos,1,81,PIA,McLaren,10,,,False,14.0,finished,False,sc ended by red_flag
+2023,9189,United States,Las Vegas,1,1,VER,Red Bull Racing,1,1.0,0.0,False,1.0,finished,True,
+2023,9189,United States,Las Vegas,1,2,SAR,Williams,6,6.0,0.0,False,16.0,finished,True,
+2023,9189,United States,Las Vegas,1,3,RIC,AlphaTauri,14,14.0,0.0,False,14.0,finished,True,
+2023,9189,United States,Las Vegas,1,4,NOR,McLaren,17,,,False,,dnf,False,out at or before sc start
+2023,9189,United States,Las Vegas,1,10,GAS,Alpine,4,4.0,0.0,False,11.0,finished,True,
+2023,9189,United States,Las Vegas,1,11,PER,Red Bull Racing,18,17.0,1.0,False,3.0,finished,True,
+2023,9189,United States,Las Vegas,1,14,ALO,Aston Martin,19,18.0,1.0,False,9.0,finished,True,
+2023,9189,United States,Las Vegas,1,16,LEC,Ferrari,2,2.0,0.0,False,2.0,finished,True,
+2023,9189,United States,Las Vegas,1,18,STR,Aston Martin,9,15.0,-6.0,True,5.0,finished,True,
+2023,9189,United States,Las Vegas,1,20,MAG,Haas F1 Team,7,7.0,0.0,False,13.0,finished,True,
+2023,9189,United States,Las Vegas,1,22,TSU,AlphaTauri,11,11.0,0.0,False,18.0,dnf,True,
+2023,9189,United States,Las Vegas,1,23,ALB,Williams,5,5.0,0.0,False,12.0,finished,True,
+2023,9189,United States,Las Vegas,1,24,ZHO,Alfa Romeo,15,13.0,2.0,False,15.0,finished,True,
+2023,9189,United States,Las Vegas,1,27,HUL,Haas F1 Team,10,9.0,1.0,False,19.0,dnf,True,
+2023,9189,United States,Las Vegas,1,31,OCO,Alpine,8,8.0,0.0,False,4.0,finished,True,
+2023,9189,United States,Las Vegas,1,44,HAM,Mercedes,13,12.0,1.0,False,7.0,finished,True,
+2023,9189,United States,Las Vegas,1,55,SAI,Ferrari,16,16.0,0.0,True,6.0,finished,True,
+2023,9189,United States,Las Vegas,1,63,RUS,Mercedes,3,3.0,0.0,False,8.0,finished,True,
+2023,9189,United States,Las Vegas,1,77,BOT,Alfa Romeo,20,19.0,1.0,False,17.0,finished,True,
+2023,9189,United States,Las Vegas,1,81,PIA,McLaren,12,10.0,2.0,False,10.0,finished,True,
+2023,9189,United States,Las Vegas,2,1,VER,Red Bull Racing,4,5.0,-1.0,True,1.0,finished,True,
+2023,9189,United States,Las Vegas,2,2,SAR,Williams,13,13.0,0.0,False,16.0,finished,True,
+2023,9189,United States,Las Vegas,2,3,RIC,AlphaTauri,17,16.0,1.0,False,14.0,finished,True,
+2023,9189,United States,Las Vegas,2,4,NOR,McLaren,20,,,False,,dnf,False,out at or before sc start
+2023,9189,United States,Las Vegas,2,10,GAS,Alpine,8,4.0,4.0,False,11.0,finished,True,
+2023,9189,United States,Las Vegas,2,11,PER,Red Bull Racing,1,2.0,-1.0,True,3.0,finished,True,
+2023,9189,United States,Las Vegas,2,14,ALO,Aston Martin,7,11.0,-4.0,True,9.0,finished,True,
+2023,9189,United States,Las Vegas,2,16,LEC,Ferrari,2,1.0,1.0,False,2.0,finished,True,
+2023,9189,United States,Las Vegas,2,18,STR,Aston Martin,3,8.0,-5.0,True,5.0,finished,True,
+2023,9189,United States,Las Vegas,2,20,MAG,Haas F1 Team,14,14.0,0.0,True,13.0,finished,True,
+2023,9189,United States,Las Vegas,2,22,TSU,AlphaTauri,19,19.0,0.0,False,18.0,dnf,True,
+2023,9189,United States,Las Vegas,2,23,ALB,Williams,12,7.0,5.0,False,12.0,finished,True,
+2023,9189,United States,Las Vegas,2,24,ZHO,Alfa Romeo,11,12.0,-1.0,True,15.0,finished,True,
+2023,9189,United States,Las Vegas,2,27,HUL,Haas F1 Team,15,15.0,0.0,True,19.0,dnf,True,
+2023,9189,United States,Las Vegas,2,31,OCO,Alpine,10,6.0,4.0,False,4.0,finished,True,
+2023,9189,United States,Las Vegas,2,44,HAM,Mercedes,16,17.0,-1.0,True,7.0,finished,True,
+2023,9189,United States,Las Vegas,2,55,SAI,Ferrari,6,10.0,-4.0,True,6.0,finished,True,
+2023,9189,United States,Las Vegas,2,63,RUS,Mercedes,5,9.0,-4.0,True,8.0,finished,True,
+2023,9189,United States,Las Vegas,2,77,BOT,Alfa Romeo,18,18.0,0.0,False,17.0,finished,True,
+2023,9189,United States,Las Vegas,2,81,PIA,McLaren,9,3.0,6.0,False,10.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,1,VER,Red Bull Racing,1,2.0,-1.0,True,1.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,2,SAR,Williams,17,17.0,0.0,True,14.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,3,RIC,RB,14,18.0,-4.0,True,16.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,4,NOR,McLaren,6,1.0,5.0,False,8.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,10,GAS,Alpine,20,,,False,,dnf,False,out at or before sc start
+2024,9480,Saudi Arabia,Jeddah,1,11,PER,Red Bull Racing,2,4.0,-2.0,True,2.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,14,ALO,Aston Martin,5,7.0,-2.0,True,5.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,16,LEC,Ferrari,3,5.0,-2.0,True,3.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,18,STR,Aston Martin,19,,,False,,dnf,False,out at or before sc start
+2024,9480,Saudi Arabia,Jeddah,1,20,MAG,Haas F1 Team,11,13.0,-2.0,True,12.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,22,TSU,RB,9,12.0,-3.0,True,15.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,23,ALB,Williams,12,15.0,-3.0,True,11.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,24,ZHO,Kick Sauber,18,10.0,8.0,False,18.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,27,HUL,Haas F1 Team,13,8.0,5.0,False,10.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,31,OCO,Alpine,15,14.0,1.0,True,13.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,38,BEA,Ferrari,10,11.0,-1.0,True,7.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,44,HAM,Mercedes,8,3.0,5.0,False,9.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,63,RUS,Mercedes,7,9.0,-2.0,True,6.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,77,BOT,Kick Sauber,16,16.0,0.0,True,17.0,finished,True,
+2024,9480,Saudi Arabia,Jeddah,1,81,PIA,McLaren,4,6.0,-2.0,True,4.0,finished,True,
+2024,9673,China,Shanghai,1,1,VER,Red Bull Racing,1,1.0,0.0,True,1.0,finished,True,
+2024,9673,China,Shanghai,1,2,SAR,Williams,16,14.0,2.0,True,17.0,finished,True,
+2024,9673,China,Shanghai,1,3,RIC,RB,11,10.0,1.0,False,,dnf,True,
+2024,9673,China,Shanghai,1,4,NOR,McLaren,3,2.0,1.0,False,2.0,finished,True,
+2024,9673,China,Shanghai,1,10,GAS,Alpine,18,16.0,2.0,True,13.0,finished,True,
+2024,9673,China,Shanghai,1,11,PER,Red Bull Racing,2,4.0,-2.0,True,3.0,finished,True,
+2024,9673,China,Shanghai,1,14,ALO,Aston Martin,4,5.0,-1.0,True,7.0,finished,True,
+2024,9673,China,Shanghai,1,16,LEC,Ferrari,5,3.0,2.0,False,4.0,finished,True,
+2024,9673,China,Shanghai,1,18,STR,Aston Martin,13,19.0,-6.0,False,15.0,finished,True,
+2024,9673,China,Shanghai,1,20,MAG,Haas F1 Team,19,17.0,2.0,False,16.0,finished,True,
+2024,9673,China,Shanghai,1,22,TSU,RB,12,18.0,-6.0,True,,dnf,True,
+2024,9673,China,Shanghai,1,23,ALB,Williams,14,13.0,1.0,True,12.0,finished,True,
+2024,9673,China,Shanghai,1,24,ZHO,Kick Sauber,15,15.0,0.0,True,14.0,finished,True,
+2024,9673,China,Shanghai,1,27,HUL,Haas F1 Team,9,9.0,0.0,True,10.0,finished,True,
+2024,9673,China,Shanghai,1,31,OCO,Alpine,10,12.0,-2.0,True,11.0,finished,True,
+2024,9673,China,Shanghai,1,44,HAM,Mercedes,17,11.0,6.0,False,9.0,finished,True,
+2024,9673,China,Shanghai,1,55,SAI,Ferrari,8,6.0,2.0,False,5.0,finished,True,
+2024,9673,China,Shanghai,1,63,RUS,Mercedes,6,7.0,-1.0,True,6.0,finished,True,
+2024,9673,China,Shanghai,1,77,BOT,Kick Sauber,20,,,False,,dnf,False,out at or before sc start
+2024,9673,China,Shanghai,1,81,PIA,McLaren,7,8.0,-1.0,True,8.0,finished,True,
+2024,9673,China,Shanghai,2,1,VER,Red Bull Racing,1,1.0,0.0,False,1.0,finished,True,
+2024,9673,China,Shanghai,2,2,SAR,Williams,14,14.0,0.0,False,17.0,finished,True,
+2024,9673,China,Shanghai,2,3,RIC,RB,10,12.0,-2.0,False,,dnf,True,
+2024,9673,China,Shanghai,2,4,NOR,McLaren,2,2.0,0.0,False,2.0,finished,True,
+2024,9673,China,Shanghai,2,10,GAS,Alpine,16,16.0,0.0,False,13.0,finished,True,
+2024,9673,China,Shanghai,2,11,PER,Red Bull Racing,4,4.0,0.0,False,3.0,finished,True,
+2024,9673,China,Shanghai,2,14,ALO,Aston Martin,5,5.0,0.0,False,7.0,finished,True,
+2024,9673,China,Shanghai,2,16,LEC,Ferrari,3,3.0,0.0,False,4.0,finished,True,
+2024,9673,China,Shanghai,2,18,STR,Aston Martin,19,18.0,1.0,True,15.0,finished,True,
+2024,9673,China,Shanghai,2,20,MAG,Haas F1 Team,17,17.0,0.0,True,16.0,finished,True,
+2024,9673,China,Shanghai,2,22,TSU,RB,18,,,False,,dnf,False,out at or before sc start
+2024,9673,China,Shanghai,2,23,ALB,Williams,13,13.0,0.0,False,12.0,finished,True,
+2024,9673,China,Shanghai,2,24,ZHO,Kick Sauber,15,15.0,0.0,False,14.0,finished,True,
+2024,9673,China,Shanghai,2,27,HUL,Haas F1 Team,9,9.0,0.0,False,10.0,finished,True,
+2024,9673,China,Shanghai,2,31,OCO,Alpine,12,11.0,1.0,False,11.0,finished,True,
+2024,9673,China,Shanghai,2,44,HAM,Mercedes,11,10.0,1.0,False,9.0,finished,True,
+2024,9673,China,Shanghai,2,55,SAI,Ferrari,6,6.0,0.0,False,5.0,finished,True,
+2024,9673,China,Shanghai,2,63,RUS,Mercedes,7,7.0,0.0,False,6.0,finished,True,
+2024,9673,China,Shanghai,2,77,BOT,Kick Sauber,20,,,False,,dnf,False,out at or before sc start
+2024,9673,China,Shanghai,2,81,PIA,McLaren,8,8.0,0.0,False,8.0,finished,True,
+2024,9507,United States,Miami,1,1,VER,Red Bull Racing,2,2.0,0.0,False,2.0,finished,True,
+2024,9507,United States,Miami,1,2,SAR,Williams,20,,,False,,dnf,False,out at or before sc start
+2024,9507,United States,Miami,1,3,RIC,RB,11,15.0,-4.0,True,15.0,finished,True,
+2024,9507,United States,Miami,1,4,NOR,McLaren,1,1.0,0.0,True,1.0,finished,True,
+2024,9507,United States,Miami,1,10,GAS,Alpine,14,12.0,2.0,False,12.0,finished,True,
+2024,9507,United States,Miami,1,11,PER,Red Bull Racing,6,6.0,0.0,True,4.0,finished,True,
+2024,9507,United States,Miami,1,14,ALO,Aston Martin,13,11.0,2.0,False,9.0,finished,True,
+2024,9507,United States,Miami,1,16,LEC,Ferrari,3,3.0,0.0,False,3.0,finished,True,
+2024,9507,United States,Miami,1,18,STR,Aston Martin,16,17.0,-1.0,True,17.0,finished,True,
+2024,9507,United States,Miami,1,20,MAG,Haas F1 Team,19,19.0,0.0,True,19.0,finished,True,
+2024,9507,United States,Miami,1,22,TSU,RB,7,7.0,0.0,True,7.0,finished,True,
+2024,9507,United States,Miami,1,23,ALB,Williams,17,13.0,4.0,False,18.0,finished,True,
+2024,9507,United States,Miami,1,24,ZHO,Kick Sauber,9,14.0,-5.0,True,14.0,finished,True,
+2024,9507,United States,Miami,1,27,HUL,Haas F1 Team,15,16.0,-1.0,True,11.0,finished,True,
+2024,9507,United States,Miami,1,31,OCO,Alpine,12,10.0,2.0,False,10.0,finished,True,
+2024,9507,United States,Miami,1,44,HAM,Mercedes,8,8.0,0.0,False,6.0,finished,True,
+2024,9507,United States,Miami,1,55,SAI,Ferrari,5,5.0,0.0,False,5.0,finished,True,
+2024,9507,United States,Miami,1,63,RUS,Mercedes,10,9.0,1.0,False,8.0,finished,True,
+2024,9507,United States,Miami,1,77,BOT,Kick Sauber,18,18.0,0.0,True,16.0,finished,True,
+2024,9507,United States,Miami,1,81,PIA,McLaren,4,4.0,0.0,False,13.0,finished,True,
+2024,9531,Canada,Montreal,1,1,VER,Red Bull Racing,2,1.0,1.0,True,1.0,finished,True,
+2024,9531,Canada,Montreal,1,2,SAR,Williams,20,,,False,,dnf,False,out at or before sc start
+2024,9531,Canada,Montreal,1,3,RIC,RB,7,11.0,-4.0,True,8.0,finished,True,
+2024,9531,Canada,Montreal,1,4,NOR,McLaren,1,3.0,-2.0,True,2.0,finished,True,
+2024,9531,Canada,Montreal,1,10,GAS,Alpine,15,15.0,0.0,True,9.0,finished,True,
+2024,9531,Canada,Montreal,1,11,PER,Red Bull Racing,16,16.0,0.0,True,,dnf,True,
+2024,9531,Canada,Montreal,1,14,ALO,Aston Martin,5,6.0,-1.0,True,6.0,finished,True,
+2024,9531,Canada,Montreal,1,16,LEC,Ferrari,11,19.0,-8.0,True,,dnf,True,
+2024,9531,Canada,Montreal,1,18,STR,Aston Martin,8,8.0,0.0,True,7.0,finished,True,
+2024,9531,Canada,Montreal,1,20,MAG,Haas F1 Team,13,14.0,-1.0,True,12.0,finished,True,
+2024,9531,Canada,Montreal,1,22,TSU,RB,10,7.0,3.0,False,14.0,finished,True,
+2024,9531,Canada,Montreal,1,23,ALB,Williams,9,10.0,-1.0,True,,dnf,True,
+2024,9531,Canada,Montreal,1,24,ZHO,Kick Sauber,19,18.0,1.0,True,15.0,finished,True,
+2024,9531,Canada,Montreal,1,27,HUL,Haas F1 Team,18,17.0,1.0,True,11.0,finished,True,
+2024,9531,Canada,Montreal,1,31,OCO,Alpine,14,9.0,5.0,False,10.0,finished,True,
+2024,9531,Canada,Montreal,1,44,HAM,Mercedes,6,5.0,1.0,True,4.0,finished,True,
+2024,9531,Canada,Montreal,1,55,SAI,Ferrari,12,13.0,-1.0,True,,dnf,True,
+2024,9531,Canada,Montreal,1,63,RUS,Mercedes,3,2.0,1.0,True,3.0,finished,True,
+2024,9531,Canada,Montreal,1,77,BOT,Kick Sauber,17,12.0,5.0,False,13.0,finished,True,
+2024,9531,Canada,Montreal,1,81,PIA,McLaren,4,4.0,0.0,True,5.0,finished,True,
+2024,9531,Canada,Montreal,2,1,VER,Red Bull Racing,1,1.0,0.0,False,1.0,finished,True,
+2024,9531,Canada,Montreal,2,2,SAR,Williams,20,,,False,,dnf,False,out at or before sc start
+2024,9531,Canada,Montreal,2,3,RIC,RB,10,10.0,0.0,False,8.0,finished,True,
+2024,9531,Canada,Montreal,2,4,NOR,McLaren,2,2.0,0.0,False,2.0,finished,True,
+2024,9531,Canada,Montreal,2,10,GAS,Alpine,11,11.0,0.0,False,9.0,finished,True,
+2024,9531,Canada,Montreal,2,11,PER,Red Bull Racing,17,,,False,,dnf,False,out at or before sc start
+2024,9531,Canada,Montreal,2,14,ALO,Aston Martin,6,6.0,0.0,False,6.0,finished,True,
+2024,9531,Canada,Montreal,2,16,LEC,Ferrari,19,,,False,,dnf,False,out at or before sc start
+2024,9531,Canada,Montreal,2,18,STR,Aston Martin,7,7.0,0.0,False,7.0,finished,True,
+2024,9531,Canada,Montreal,2,20,MAG,Haas F1 Team,14,14.0,0.0,True,12.0,finished,True,
+2024,9531,Canada,Montreal,2,22,TSU,RB,8,8.0,0.0,False,14.0,finished,True,
+2024,9531,Canada,Montreal,2,23,ALB,Williams,16,,,False,,dnf,False,out at or before sc start
+2024,9531,Canada,Montreal,2,24,ZHO,Kick Sauber,18,15.0,3.0,True,15.0,finished,True,
+2024,9531,Canada,Montreal,2,27,HUL,Haas F1 Team,12,12.0,0.0,False,11.0,finished,True,
+2024,9531,Canada,Montreal,2,31,OCO,Alpine,9,9.0,0.0,False,10.0,finished,True,
+2024,9531,Canada,Montreal,2,44,HAM,Mercedes,5,5.0,0.0,True,4.0,finished,True,
+2024,9531,Canada,Montreal,2,55,SAI,Ferrari,15,,,False,,dnf,False,out at or before sc start
+2024,9531,Canada,Montreal,2,63,RUS,Mercedes,3,4.0,-1.0,True,3.0,finished,True,
+2024,9531,Canada,Montreal,2,77,BOT,Kick Sauber,13,13.0,0.0,False,13.0,finished,True,
+2024,9531,Canada,Montreal,2,81,PIA,McLaren,4,3.0,1.0,False,5.0,finished,True,
+2024,9617,United States,Austin,1,1,VER,Red Bull Racing,2,2.0,0.0,False,3.0,finished,True,
+2024,9617,United States,Austin,1,4,NOR,McLaren,4,4.0,0.0,False,4.0,finished,True,
+2024,9617,United States,Austin,1,10,GAS,Alpine,6,6.0,0.0,False,12.0,finished,True,
+2024,9617,United States,Austin,1,11,PER,Red Bull Racing,9,9.0,0.0,False,7.0,finished,True,
+2024,9617,United States,Austin,1,14,ALO,Aston Martin,10,10.0,0.0,False,13.0,finished,True,
+2024,9617,United States,Austin,1,16,LEC,Ferrari,1,1.0,0.0,False,1.0,finished,True,
+2024,9617,United States,Austin,1,18,STR,Aston Martin,12,18.0,-6.0,False,15.0,finished,True,
+2024,9617,United States,Austin,1,20,MAG,Haas F1 Team,7,7.0,0.0,False,11.0,finished,True,
+2024,9617,United States,Austin,1,22,TSU,RB,8,8.0,0.0,False,14.0,finished,True,
+2024,9617,United States,Austin,1,23,ALB,Williams,18,19.0,-1.0,True,16.0,finished,True,
+2024,9617,United States,Austin,1,24,ZHO,Kick Sauber,14,13.0,1.0,False,19.0,finished,True,
+2024,9617,United States,Austin,1,27,HUL,Haas F1 Team,11,11.0,0.0,False,8.0,finished,True,
+2024,9617,United States,Austin,1,30,LAW,RB,13,12.0,1.0,False,9.0,finished,True,
+2024,9617,United States,Austin,1,31,OCO,Alpine,19,17.0,2.0,False,18.0,finished,True,
+2024,9617,United States,Austin,1,43,COL,Williams,15,14.0,1.0,False,10.0,finished,True,
+2024,9617,United States,Austin,1,44,HAM,Mercedes,20,,,False,,dnf,False,out at or before sc start
+2024,9617,United States,Austin,1,55,SAI,Ferrari,3,3.0,0.0,False,2.0,finished,True,
+2024,9617,United States,Austin,1,63,RUS,Mercedes,17,16.0,1.0,False,6.0,finished,True,
+2024,9617,United States,Austin,1,77,BOT,Kick Sauber,16,15.0,1.0,False,17.0,finished,True,
+2024,9617,United States,Austin,1,81,PIA,McLaren,5,5.0,0.0,False,5.0,finished,True,
+2024,9625,Mexico,Mexico City,1,1,VER,Red Bull Racing,1,1.0,0.0,False,6.0,finished,True,
+2024,9625,Mexico,Mexico City,1,4,NOR,McLaren,3,3.0,0.0,False,2.0,finished,True,
+2024,9625,Mexico,Mexico City,1,10,GAS,Alpine,9,9.0,0.0,False,10.0,finished,True,
+2024,9625,Mexico,Mexico City,1,11,PER,Red Bull Racing,13,13.0,0.0,False,17.0,finished,True,
+2024,9625,Mexico,Mexico City,1,14,ALO,Aston Martin,12,12.0,0.0,False,,dnf,True,
+2024,9625,Mexico,Mexico City,1,16,LEC,Ferrari,4,4.0,0.0,False,3.0,finished,True,
+2024,9625,Mexico,Mexico City,1,18,STR,Aston Martin,11,11.0,0.0,False,11.0,finished,True,
+2024,9625,Mexico,Mexico City,1,20,MAG,Haas F1 Team,7,7.0,0.0,False,7.0,finished,True,
+2024,9625,Mexico,Mexico City,1,22,TSU,RB,20,,,False,,dnf,False,out at or before sc start
+2024,9625,Mexico,Mexico City,1,23,ALB,Williams,19,,,False,,dnf,False,out at or before sc start
+2024,9625,Mexico,Mexico City,1,24,ZHO,Kick Sauber,16,16.0,0.0,False,15.0,finished,True,
+2024,9625,Mexico,Mexico City,1,27,HUL,Haas F1 Team,8,8.0,0.0,False,9.0,finished,True,
+2024,9625,Mexico,Mexico City,1,30,LAW,RB,10,10.0,0.0,False,16.0,finished,True,
+2024,9625,Mexico,Mexico City,1,31,OCO,Alpine,18,18.0,0.0,False,13.0,finished,True,
+2024,9625,Mexico,Mexico City,1,43,COL,Williams,14,14.0,0.0,False,12.0,finished,True,
+2024,9625,Mexico,Mexico City,1,44,HAM,Mercedes,5,5.0,0.0,False,4.0,finished,True,
+2024,9625,Mexico,Mexico City,1,55,SAI,Ferrari,2,2.0,0.0,False,1.0,finished,True,
+2024,9625,Mexico,Mexico City,1,63,RUS,Mercedes,6,6.0,0.0,False,5.0,finished,True,
+2024,9625,Mexico,Mexico City,1,77,BOT,Kick Sauber,15,15.0,0.0,False,14.0,finished,True,
+2024,9625,Mexico,Mexico City,1,81,PIA,McLaren,17,17.0,0.0,False,8.0,finished,True,
+2024,9636,Brazil,Interlagos,1,1,VER,Red Bull Racing,2,,,False,1.0,finished,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,4,NOR,McLaren,4,,,False,6.0,finished,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,10,GAS,Alpine,3,,,False,3.0,finished,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,11,PER,Red Bull Racing,14,,,False,11.0,finished,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,14,ALO,Aston Martin,9,,,False,14.0,finished,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,16,LEC,Ferrari,7,,,False,5.0,finished,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,18,STR,Aston Martin,20,,,False,,dns,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,22,TSU,RB,6,,,False,7.0,finished,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,23,ALB,Williams,19,,,False,,dns,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,24,ZHO,Kick Sauber,17,,,False,15.0,finished,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,27,HUL,Haas F1 Team,18,,,True,,dsq,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,30,LAW,RB,11,,,False,9.0,finished,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,31,OCO,Alpine,1,,,False,2.0,finished,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,43,COL,Williams,16,,,True,,dnf,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,44,HAM,Mercedes,10,,,False,10.0,finished,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,50,BEA,Haas F1 Team,15,,,False,12.0,finished,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,55,SAI,Ferrari,13,,,False,,dnf,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,63,RUS,Mercedes,5,,,False,4.0,finished,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,77,BOT,Kick Sauber,12,,,False,13.0,finished,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,1,81,PIA,McLaren,8,,,False,8.0,finished,False,sc ended by red_flag
+2024,9636,Brazil,Interlagos,2,1,VER,Red Bull Racing,2,1.0,1.0,False,1.0,finished,True,
+2024,9636,Brazil,Interlagos,2,4,NOR,McLaren,5,7.0,-2.0,False,6.0,finished,True,
+2024,9636,Brazil,Interlagos,2,10,GAS,Alpine,3,3.0,0.0,False,3.0,finished,True,
+2024,9636,Brazil,Interlagos,2,11,PER,Red Bull Racing,12,10.0,2.0,False,11.0,finished,True,
+2024,9636,Brazil,Interlagos,2,14,ALO,Aston Martin,10,13.0,-3.0,False,14.0,finished,True,
+2024,9636,Brazil,Interlagos,2,16,LEC,Ferrari,6,4.0,2.0,False,5.0,finished,True,
+2024,9636,Brazil,Interlagos,2,18,STR,Aston Martin,20,,,False,,dns,False,out at or before sc start
+2024,9636,Brazil,Interlagos,2,22,TSU,RB,8,8.0,0.0,False,7.0,finished,True,
+2024,9636,Brazil,Interlagos,2,23,ALB,Williams,19,,,False,,dns,False,out at or before sc start
+2024,9636,Brazil,Interlagos,2,24,ZHO,Kick Sauber,15,15.0,0.0,False,15.0,finished,True,
+2024,9636,Brazil,Interlagos,2,27,HUL,Haas F1 Team,18,,,False,,dsq,False,out at or before sc start
+2024,9636,Brazil,Interlagos,2,30,LAW,RB,11,9.0,2.0,False,9.0,finished,True,
+2024,9636,Brazil,Interlagos,2,31,OCO,Alpine,1,2.0,-1.0,False,2.0,finished,True,
+2024,9636,Brazil,Interlagos,2,43,COL,Williams,17,,,False,,dnf,False,out at or before sc start
+2024,9636,Brazil,Interlagos,2,44,HAM,Mercedes,9,11.0,-2.0,False,10.0,finished,True,
+2024,9636,Brazil,Interlagos,2,50,BEA,Haas F1 Team,16,12.0,4.0,False,12.0,finished,True,
+2024,9636,Brazil,Interlagos,2,55,SAI,Ferrari,13,,,False,,dnf,False,out at or before sc start
+2024,9636,Brazil,Interlagos,2,63,RUS,Mercedes,4,5.0,-1.0,False,4.0,finished,True,
+2024,9636,Brazil,Interlagos,2,77,BOT,Kick Sauber,14,14.0,0.0,False,13.0,finished,True,
+2024,9636,Brazil,Interlagos,2,81,PIA,McLaren,7,6.0,1.0,False,8.0,finished,True,
+2024,9655,Qatar,Lusail,1,1,VER,Red Bull Racing,1,1.0,0.0,False,1.0,finished,True,
+2024,9655,Qatar,Lusail,1,4,NOR,McLaren,2,2.0,0.0,False,10.0,finished,True,
+2024,9655,Qatar,Lusail,1,10,GAS,Alpine,12,12.0,0.0,False,5.0,finished,True,
+2024,9655,Qatar,Lusail,1,11,PER,Red Bull Racing,7,7.0,0.0,False,,dnf,True,
+2024,9655,Qatar,Lusail,1,14,ALO,Aston Martin,8,11.0,-3.0,False,7.0,finished,True,
+2024,9655,Qatar,Lusail,1,16,LEC,Ferrari,4,5.0,-1.0,False,2.0,finished,True,
+2024,9655,Qatar,Lusail,1,18,STR,Aston Martin,16,17.0,-1.0,True,,dnf,True,
+2024,9655,Qatar,Lusail,1,20,MAG,Haas F1 Team,11,10.0,1.0,False,9.0,finished,True,
+2024,9655,Qatar,Lusail,1,22,TSU,RB,10,9.0,1.0,False,13.0,finished,True,
+2024,9655,Qatar,Lusail,1,23,ALB,Williams,17,15.0,2.0,False,15.0,finished,True,
+2024,9655,Qatar,Lusail,1,24,ZHO,Kick Sauber,15,13.0,2.0,False,8.0,finished,True,
+2024,9655,Qatar,Lusail,1,27,HUL,Haas F1 Team,18,16.0,2.0,True,,dnf,True,
+2024,9655,Qatar,Lusail,1,30,LAW,RB,14,18.0,-4.0,False,14.0,finished,True,
+2024,9655,Qatar,Lusail,1,31,OCO,Alpine,19,,,False,,dnf,False,out at or before sc start
+2024,9655,Qatar,Lusail,1,43,COL,Williams,20,,,False,,dnf,False,out at or before sc start
+2024,9655,Qatar,Lusail,1,44,HAM,Mercedes,9,8.0,1.0,False,12.0,finished,True,
+2024,9655,Qatar,Lusail,1,55,SAI,Ferrari,6,6.0,0.0,False,6.0,finished,True,
+2024,9655,Qatar,Lusail,1,63,RUS,Mercedes,3,3.0,0.0,False,4.0,finished,True,
+2024,9655,Qatar,Lusail,1,77,BOT,Kick Sauber,13,14.0,-1.0,False,11.0,finished,True,
+2024,9655,Qatar,Lusail,1,81,PIA,McLaren,5,4.0,1.0,False,3.0,finished,True,
+2024,9655,Qatar,Lusail,2,1,VER,Red Bull Racing,1,1.0,0.0,True,1.0,finished,True,
+2024,9655,Qatar,Lusail,2,4,NOR,McLaren,2,2.0,0.0,True,10.0,finished,True,
+2024,9655,Qatar,Lusail,2,10,GAS,Alpine,6,6.0,0.0,True,5.0,finished,True,
+2024,9655,Qatar,Lusail,2,11,PER,Red Bull Racing,4,,,True,,dnf,False,retired during sc
+2024,9655,Qatar,Lusail,2,14,ALO,Aston Martin,8,8.0,0.0,True,7.0,finished,True,
+2024,9655,Qatar,Lusail,2,16,LEC,Ferrari,3,3.0,0.0,True,2.0,finished,True,
+2024,9655,Qatar,Lusail,2,18,STR,Aston Martin,18,,,False,,dnf,False,out at or before sc start
+2024,9655,Qatar,Lusail,2,20,MAG,Haas F1 Team,14,10.0,4.0,True,9.0,finished,True,
+2024,9655,Qatar,Lusail,2,22,TSU,RB,11,12.0,-1.0,True,13.0,finished,True,
+2024,9655,Qatar,Lusail,2,23,ALB,Williams,12,11.0,1.0,True,15.0,finished,True,
+2024,9655,Qatar,Lusail,2,24,ZHO,Kick Sauber,9,9.0,0.0,True,8.0,finished,True,
+2024,9655,Qatar,Lusail,2,27,HUL,Haas F1 Team,16,16.0,0.0,True,,dnf,True,
+2024,9655,Qatar,Lusail,2,30,LAW,RB,13,14.0,-1.0,True,14.0,finished,True,
+2024,9655,Qatar,Lusail,2,31,OCO,Alpine,19,,,False,,dnf,False,out at or before sc start
+2024,9655,Qatar,Lusail,2,43,COL,Williams,20,,,False,,dnf,False,out at or before sc start
+2024,9655,Qatar,Lusail,2,44,HAM,Mercedes,15,13.0,2.0,True,12.0,finished,True,
+2024,9655,Qatar,Lusail,2,55,SAI,Ferrari,10,7.0,3.0,True,6.0,finished,True,
+2024,9655,Qatar,Lusail,2,63,RUS,Mercedes,7,5.0,2.0,True,4.0,finished,True,
+2024,9655,Qatar,Lusail,2,77,BOT,Kick Sauber,17,15.0,2.0,True,11.0,finished,True,
+2024,9655,Qatar,Lusail,2,81,PIA,McLaren,5,4.0,1.0,True,3.0,finished,True,
+2024,9655,Qatar,Lusail,3,1,VER,Red Bull Racing,1,1.0,0.0,False,1.0,finished,True,
+2024,9655,Qatar,Lusail,3,4,NOR,McLaren,2,2.0,0.0,False,10.0,finished,True,
+2024,9655,Qatar,Lusail,3,10,GAS,Alpine,6,6.0,0.0,False,5.0,finished,True,
+2024,9655,Qatar,Lusail,3,11,PER,Red Bull Racing,17,,,False,,dnf,False,out at or before sc start
+2024,9655,Qatar,Lusail,3,14,ALO,Aston Martin,8,8.0,0.0,False,7.0,finished,True,
+2024,9655,Qatar,Lusail,3,16,LEC,Ferrari,3,3.0,0.0,False,2.0,finished,True,
+2024,9655,Qatar,Lusail,3,18,STR,Aston Martin,18,,,False,,dnf,False,out at or before sc start
+2024,9655,Qatar,Lusail,3,20,MAG,Haas F1 Team,10,11.0,-1.0,False,9.0,finished,True,
+2024,9655,Qatar,Lusail,3,22,TSU,RB,12,13.0,-1.0,True,13.0,finished,True,
+2024,9655,Qatar,Lusail,3,23,ALB,Williams,11,10.0,1.0,False,15.0,finished,True,
+2024,9655,Qatar,Lusail,3,24,ZHO,Kick Sauber,9,9.0,0.0,False,8.0,finished,True,
+2024,9655,Qatar,Lusail,3,27,HUL,Haas F1 Team,16,,,False,,dnf,False,out at or before sc start
+2024,9655,Qatar,Lusail,3,30,LAW,RB,14,15.0,-1.0,True,14.0,finished,True,
+2024,9655,Qatar,Lusail,3,31,OCO,Alpine,19,,,False,,dnf,False,out at or before sc start
+2024,9655,Qatar,Lusail,3,43,COL,Williams,20,,,False,,dnf,False,out at or before sc start
+2024,9655,Qatar,Lusail,3,44,HAM,Mercedes,13,14.0,-1.0,False,12.0,finished,True,
+2024,9655,Qatar,Lusail,3,55,SAI,Ferrari,7,7.0,0.0,False,6.0,finished,True,
+2024,9655,Qatar,Lusail,3,63,RUS,Mercedes,5,5.0,0.0,False,4.0,finished,True,
+2024,9655,Qatar,Lusail,3,77,BOT,Kick Sauber,15,12.0,3.0,False,11.0,finished,True,
+2024,9655,Qatar,Lusail,3,81,PIA,McLaren,4,4.0,0.0,False,3.0,finished,True,
+2025,9693,Australia,Melbourne,1,1,VER,Red Bull Racing,2,2.0,0.0,True,2.0,finished,True,
+2025,9693,Australia,Melbourne,1,4,NOR,McLaren,1,1.0,0.0,True,1.0,finished,True,
+2025,9693,Australia,Melbourne,1,5,BOR,Kick Sauber,15,14.0,1.0,True,,dnf,True,
+2025,9693,Australia,Melbourne,1,6,HAD,Racing Bulls,20,,,False,,dns,False,out at or before sc start
+2025,9693,Australia,Melbourne,1,7,DOO,Alpine,19,,,False,,dnf,False,out at or before sc start
+2025,9693,Australia,Melbourne,1,10,GAS,Alpine,9,9.0,0.0,True,11.0,finished,True,
+2025,9693,Australia,Melbourne,1,12,ANT,Mercedes,14,13.0,1.0,True,4.0,finished,True,
+2025,9693,Australia,Melbourne,1,14,ALO,Aston Martin,11,10.0,1.0,True,,dnf,True,
+2025,9693,Australia,Melbourne,1,16,LEC,Ferrari,5,5.0,0.0,True,8.0,finished,True,
+2025,9693,Australia,Melbourne,1,18,STR,Aston Martin,12,11.0,1.0,True,6.0,finished,True,
+2025,9693,Australia,Melbourne,1,22,TSU,Racing Bulls,6,6.0,0.0,True,12.0,finished,True,
+2025,9693,Australia,Melbourne,1,23,ALB,Williams,7,7.0,0.0,True,5.0,finished,True,
+2025,9693,Australia,Melbourne,1,27,HUL,Kick Sauber,13,12.0,1.0,True,7.0,finished,True,
+2025,9693,Australia,Melbourne,1,30,LAW,Red Bull Racing,17,16.0,1.0,True,,dnf,True,
+2025,9693,Australia,Melbourne,1,31,OCO,Haas F1 Team,16,15.0,1.0,True,13.0,finished,True,
+2025,9693,Australia,Melbourne,1,44,HAM,Ferrari,8,8.0,0.0,True,10.0,finished,True,
+2025,9693,Australia,Melbourne,1,55,SAI,Williams,10,,,False,,dnf,False,out at or before sc start
+2025,9693,Australia,Melbourne,1,63,RUS,Mercedes,4,4.0,0.0,True,3.0,finished,True,
+2025,9693,Australia,Melbourne,1,81,PIA,McLaren,3,3.0,0.0,True,9.0,finished,True,
+2025,9693,Australia,Melbourne,1,87,BEA,Haas F1 Team,18,17.0,1.0,True,14.0,finished,True,
+2025,9693,Australia,Melbourne,2,1,VER,Red Bull Racing,3,3.0,0.0,True,2.0,finished,True,
+2025,9693,Australia,Melbourne,2,4,NOR,McLaren,1,1.0,0.0,True,1.0,finished,True,
+2025,9693,Australia,Melbourne,2,5,BOR,Kick Sauber,14,13.0,1.0,True,,dnf,True,
+2025,9693,Australia,Melbourne,2,6,HAD,Racing Bulls,20,,,False,,dns,False,out at or before sc start
+2025,9693,Australia,Melbourne,2,7,DOO,Alpine,19,,,False,,dnf,False,out at or before sc start
+2025,9693,Australia,Melbourne,2,10,GAS,Alpine,9,9.0,0.0,True,11.0,finished,True,
+2025,9693,Australia,Melbourne,2,12,ANT,Mercedes,10,10.0,0.0,True,4.0,finished,True,
+2025,9693,Australia,Melbourne,2,14,ALO,Aston Martin,12,,,False,,dnf,False,out at or before sc start
+2025,9693,Australia,Melbourne,2,16,LEC,Ferrari,5,5.0,0.0,True,8.0,finished,True,
+2025,9693,Australia,Melbourne,2,18,STR,Aston Martin,11,11.0,0.0,True,6.0,finished,True,
+2025,9693,Australia,Melbourne,2,22,TSU,Racing Bulls,6,6.0,0.0,True,12.0,finished,True,
+2025,9693,Australia,Melbourne,2,23,ALB,Williams,7,7.0,0.0,True,5.0,finished,True,
+2025,9693,Australia,Melbourne,2,27,HUL,Kick Sauber,13,12.0,1.0,True,7.0,finished,True,
+2025,9693,Australia,Melbourne,2,30,LAW,Red Bull Racing,15,14.0,1.0,True,,dnf,True,
+2025,9693,Australia,Melbourne,2,31,OCO,Haas F1 Team,16,15.0,1.0,True,13.0,finished,True,
+2025,9693,Australia,Melbourne,2,44,HAM,Ferrari,8,8.0,0.0,True,10.0,finished,True,
+2025,9693,Australia,Melbourne,2,55,SAI,Williams,18,,,False,,dnf,False,out at or before sc start
+2025,9693,Australia,Melbourne,2,63,RUS,Mercedes,4,4.0,0.0,True,3.0,finished,True,
+2025,9693,Australia,Melbourne,2,81,PIA,McLaren,2,2.0,0.0,True,9.0,finished,True,
+2025,9693,Australia,Melbourne,2,87,BEA,Haas F1 Team,17,16.0,1.0,True,14.0,finished,True,
+2025,9693,Australia,Melbourne,3,1,VER,Red Bull Racing,4,2.0,2.0,False,2.0,finished,True,
+2025,9693,Australia,Melbourne,3,4,NOR,McLaren,1,1.0,0.0,False,1.0,finished,True,
+2025,9693,Australia,Melbourne,3,5,BOR,Kick Sauber,13,,,False,,dnf,False,out at or before sc start
+2025,9693,Australia,Melbourne,3,6,HAD,Racing Bulls,20,,,False,,dns,False,out at or before sc start
+2025,9693,Australia,Melbourne,3,7,DOO,Alpine,19,,,False,,dnf,False,out at or before sc start
+2025,9693,Australia,Melbourne,3,10,GAS,Alpine,11,8.0,3.0,False,11.0,finished,True,
+2025,9693,Australia,Melbourne,3,12,ANT,Mercedes,8,5.0,3.0,False,4.0,finished,True,
+2025,9693,Australia,Melbourne,3,14,ALO,Aston Martin,17,,,False,,dnf,False,out at or before sc start
+2025,9693,Australia,Melbourne,3,16,LEC,Ferrari,3,9.0,-6.0,True,8.0,finished,True,
+2025,9693,Australia,Melbourne,3,18,STR,Aston Martin,9,6.0,3.0,False,6.0,finished,True,
+2025,9693,Australia,Melbourne,3,22,TSU,Racing Bulls,6,11.0,-5.0,True,12.0,finished,True,
+2025,9693,Australia,Melbourne,3,23,ALB,Williams,7,4.0,3.0,False,5.0,finished,True,
+2025,9693,Australia,Melbourne,3,27,HUL,Kick Sauber,10,7.0,3.0,False,7.0,finished,True,
+2025,9693,Australia,Melbourne,3,30,LAW,Red Bull Racing,12,,,False,,dnf,False,out at or before sc start
+2025,9693,Australia,Melbourne,3,31,OCO,Haas F1 Team,14,13.0,1.0,True,13.0,finished,True,
+2025,9693,Australia,Melbourne,3,44,HAM,Ferrari,2,10.0,-8.0,True,10.0,finished,True,
+2025,9693,Australia,Melbourne,3,55,SAI,Williams,18,,,False,,dnf,False,out at or before sc start
+2025,9693,Australia,Melbourne,3,63,RUS,Mercedes,5,3.0,2.0,False,3.0,finished,True,
+2025,9693,Australia,Melbourne,3,81,PIA,McLaren,15,12.0,3.0,False,9.0,finished,True,
+2025,9693,Australia,Melbourne,3,87,BEA,Haas F1 Team,16,14.0,2.0,False,14.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,1,VER,Red Bull Racing,13,8.0,5.0,False,6.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,4,NOR,McLaren,4,4.0,0.0,True,3.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,5,BOR,Kick Sauber,18,20.0,-2.0,True,18.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,6,HAD,Racing Bulls,19,17.0,2.0,False,13.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,7,DOO,Alpine,15,9.0,6.0,False,14.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,10,GAS,Alpine,9,6.0,3.0,False,7.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,12,ANT,Mercedes,11,14.0,-3.0,True,11.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,14,ALO,Aston Martin,14,18.0,-4.0,True,15.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,16,LEC,Ferrari,3,3.0,0.0,True,4.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,18,STR,Aston Martin,16,19.0,-3.0,True,17.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,22,TSU,Red Bull Racing,7,10.0,-3.0,True,9.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,23,ALB,Williams,8,12.0,-4.0,True,12.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,27,HUL,Kick Sauber,20,15.0,5.0,False,,dsq,True,
+2025,10014,Bahrain,Sakhir,1,30,LAW,Racing Bulls,17,16.0,1.0,True,16.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,31,OCO,Haas F1 Team,12,7.0,5.0,False,8.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,44,HAM,Ferrari,5,5.0,0.0,True,5.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,55,SAI,Williams,6,13.0,-7.0,True,,dnf,True,
+2025,10014,Bahrain,Sakhir,1,63,RUS,Mercedes,2,2.0,0.0,True,2.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,81,PIA,McLaren,1,1.0,0.0,True,1.0,finished,True,
+2025,10014,Bahrain,Sakhir,1,87,BEA,Haas F1 Team,10,11.0,-1.0,True,10.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,1,VER,Red Bull Racing,1,1.0,0.0,False,2.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,4,NOR,McLaren,8,8.0,0.0,False,4.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,5,BOR,Kick Sauber,18,18.0,0.0,True,18.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,6,HAD,Racing Bulls,11,10.0,1.0,False,10.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,7,DOO,Alpine,15,16.0,-1.0,True,17.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,10,GAS,Alpine,19,,,False,,dnf,False,out at or before sc start
+2025,10022,Saudi Arabia,Jeddah,1,12,ANT,Mercedes,5,5.0,0.0,False,6.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,14,ALO,Aston Martin,10,11.0,-1.0,False,11.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,16,LEC,Ferrari,4,4.0,0.0,False,3.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,18,STR,Aston Martin,14,14.0,0.0,False,16.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,22,TSU,Red Bull Racing,20,,,False,,dnf,False,retired during sc
+2025,10022,Saudi Arabia,Jeddah,1,23,ALB,Williams,9,9.0,0.0,False,9.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,27,HUL,Kick Sauber,16,15.0,1.0,False,15.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,30,LAW,Racing Bulls,12,12.0,0.0,False,12.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,31,OCO,Haas F1 Team,17,17.0,0.0,True,14.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,44,HAM,Ferrari,6,6.0,0.0,False,7.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,55,SAI,Williams,7,7.0,0.0,False,8.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,63,RUS,Mercedes,3,3.0,0.0,False,5.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,81,PIA,McLaren,2,2.0,0.0,False,1.0,finished,True,
+2025,10022,Saudi Arabia,Jeddah,1,87,BEA,Haas F1 Team,13,13.0,0.0,False,13.0,finished,True,
+2025,9987,Italy,Imola,1,1,VER,Red Bull Racing,1,1.0,0.0,True,1.0,finished,True,
+2025,9987,Italy,Imola,1,4,NOR,McLaren,2,3.0,-1.0,True,2.0,finished,True,
+2025,9987,Italy,Imola,1,5,BOR,Kick Sauber,17,17.0,0.0,True,18.0,finished,True,
+2025,9987,Italy,Imola,1,6,HAD,Racing Bulls,7,9.0,-2.0,True,9.0,finished,True,
+2025,9987,Italy,Imola,1,10,GAS,Alpine,14,12.0,2.0,False,13.0,finished,True,
+2025,9987,Italy,Imola,1,12,ANT,Mercedes,18,,,False,,dnf,False,out at or before sc start
+2025,9987,Italy,Imola,1,14,ALO,Aston Martin,12,14.0,-2.0,True,11.0,finished,True,
+2025,9987,Italy,Imola,1,16,LEC,Ferrari,6,4.0,2.0,False,6.0,finished,True,
+2025,9987,Italy,Imola,1,18,STR,Aston Martin,13,15.0,-2.0,True,15.0,finished,True,
+2025,9987,Italy,Imola,1,22,TSU,Red Bull Racing,11,10.0,1.0,False,10.0,finished,True,
+2025,9987,Italy,Imola,1,23,ALB,Williams,4,5.0,-1.0,True,5.0,finished,True,
+2025,9987,Italy,Imola,1,27,HUL,Kick Sauber,10,11.0,-1.0,False,12.0,finished,True,
+2025,9987,Italy,Imola,1,30,LAW,Racing Bulls,16,13.0,3.0,False,14.0,finished,True,
+2025,9987,Italy,Imola,1,31,OCO,Haas F1 Team,20,,,False,,dnf,False,out at or before sc start
+2025,9987,Italy,Imola,1,43,COL,Alpine,15,16.0,-1.0,True,16.0,finished,True,
+2025,9987,Italy,Imola,1,44,HAM,Ferrari,5,7.0,-2.0,True,4.0,finished,True,
+2025,9987,Italy,Imola,1,55,SAI,Williams,9,8.0,1.0,False,8.0,finished,True,
+2025,9987,Italy,Imola,1,63,RUS,Mercedes,8,6.0,2.0,False,7.0,finished,True,
+2025,9987,Italy,Imola,1,81,PIA,McLaren,3,2.0,1.0,False,3.0,finished,True,
+2025,9987,Italy,Imola,1,87,BEA,Haas F1 Team,19,18.0,1.0,False,17.0,finished,True,
+2025,9971,Spain,Catalunya,1,1,VER,Red Bull Racing,3,4.0,-1.0,True,10.0,finished,True,
+2025,9971,Spain,Catalunya,1,4,NOR,McLaren,2,2.0,0.0,True,2.0,finished,True,
+2025,9971,Spain,Catalunya,1,5,BOR,Kick Sauber,17,11.0,6.0,False,12.0,finished,True,
+2025,9971,Spain,Catalunya,1,6,HAD,Racing Bulls,8,8.0,0.0,True,7.0,finished,True,
+2025,9971,Spain,Catalunya,1,10,GAS,Alpine,10,9.0,1.0,True,8.0,finished,True,
+2025,9971,Spain,Catalunya,1,12,ANT,Mercedes,7,,,False,,dnf,False,out at or before sc start
+2025,9971,Spain,Catalunya,1,14,ALO,Aston Martin,12,12.0,0.0,True,9.0,finished,True,
+2025,9971,Spain,Catalunya,1,16,LEC,Ferrari,4,3.0,1.0,True,3.0,finished,True,
+2025,9971,Spain,Catalunya,1,22,TSU,Red Bull Racing,15,15.0,0.0,True,13.0,finished,True,
+2025,9971,Spain,Catalunya,1,23,ALB,Williams,19,,,False,,dnf,False,out at or before sc start
+2025,9971,Spain,Catalunya,1,27,HUL,Kick Sauber,9,7.0,2.0,True,5.0,finished,True,
+2025,9971,Spain,Catalunya,1,30,LAW,Racing Bulls,11,10.0,1.0,False,11.0,finished,True,
+2025,9971,Spain,Catalunya,1,31,OCO,Haas F1 Team,16,13.0,3.0,False,16.0,finished,True,
+2025,9971,Spain,Catalunya,1,43,COL,Alpine,18,17.0,1.0,True,15.0,finished,True,
+2025,9971,Spain,Catalunya,1,44,HAM,Ferrari,6,6.0,0.0,True,6.0,finished,True,
+2025,9971,Spain,Catalunya,1,55,SAI,Williams,14,16.0,-2.0,True,14.0,finished,True,
+2025,9971,Spain,Catalunya,1,63,RUS,Mercedes,5,5.0,0.0,True,4.0,finished,True,
+2025,9971,Spain,Catalunya,1,81,PIA,McLaren,1,1.0,0.0,True,1.0,finished,True,
+2025,9971,Spain,Catalunya,1,87,BEA,Haas F1 Team,13,14.0,-1.0,True,17.0,finished,True,
+2025,9963,Canada,Montreal,1,1,VER,Red Bull Racing,2,,,True,2.0,finished,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,4,NOR,McLaren,6,,,False,18.0,dnf,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,5,BOR,Kick Sauber,15,,,True,14.0,finished,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,6,HAD,Racing Bulls,17,,,True,16.0,finished,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,10,GAS,Alpine,16,,,True,15.0,finished,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,12,ANT,Mercedes,3,,,True,3.0,finished,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,14,ALO,Aston Martin,8,,,True,7.0,finished,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,16,LEC,Ferrari,5,,,True,5.0,finished,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,18,STR,Aston Martin,18,,,True,17.0,finished,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,22,TSU,Red Bull Racing,13,,,True,12.0,finished,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,23,ALB,Williams,20,,,False,,dnf,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,27,HUL,Kick Sauber,9,,,True,8.0,finished,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,30,LAW,Racing Bulls,19,,,False,,dnf,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,31,OCO,Haas F1 Team,10,,,True,9.0,finished,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,43,COL,Alpine,14,,,True,13.0,finished,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,44,HAM,Ferrari,7,,,True,6.0,finished,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,55,SAI,Williams,11,,,True,10.0,finished,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,63,RUS,Mercedes,1,,,True,1.0,finished,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,81,PIA,McLaren,4,,,True,4.0,finished,False,sc ended by race_end
+2025,9963,Canada,Montreal,1,87,BEA,Haas F1 Team,12,,,True,11.0,finished,False,sc ended by race_end
+2025,9955,Austria,Spielberg,1,1,VER,Red Bull Racing,18,,,False,,dnf,False,out at or before sc start
+2025,9955,Austria,Spielberg,1,4,NOR,McLaren,1,1.0,0.0,False,1.0,finished,True,
+2025,9955,Austria,Spielberg,1,5,BOR,Kick Sauber,8,8.0,0.0,False,8.0,finished,True,
+2025,9955,Austria,Spielberg,1,6,HAD,Racing Bulls,17,17.0,0.0,True,12.0,finished,True,
+2025,9955,Austria,Spielberg,1,10,GAS,Alpine,6,6.0,0.0,False,13.0,finished,True,
+2025,9955,Austria,Spielberg,1,12,ANT,Mercedes,19,,,False,,dnf,False,out at or before sc start
+2025,9955,Austria,Spielberg,1,14,ALO,Aston Martin,10,10.0,0.0,False,7.0,finished,True,
+2025,9955,Austria,Spielberg,1,16,LEC,Ferrari,3,3.0,0.0,False,3.0,finished,True,
+2025,9955,Austria,Spielberg,1,18,STR,Aston Martin,13,13.0,0.0,False,14.0,finished,True,
+2025,9955,Austria,Spielberg,1,22,TSU,Red Bull Racing,14,15.0,-1.0,False,16.0,finished,True,
+2025,9955,Austria,Spielberg,1,23,ALB,Williams,7,7.0,0.0,False,,dnf,True,
+2025,9955,Austria,Spielberg,1,27,HUL,Kick Sauber,16,16.0,0.0,False,9.0,finished,True,
+2025,9955,Austria,Spielberg,1,30,LAW,Racing Bulls,9,9.0,0.0,False,6.0,finished,True,
+2025,9955,Austria,Spielberg,1,31,OCO,Haas F1 Team,15,14.0,1.0,False,10.0,finished,True,
+2025,9955,Austria,Spielberg,1,43,COL,Alpine,11,11.0,0.0,False,15.0,finished,True,
+2025,9955,Austria,Spielberg,1,44,HAM,Ferrari,4,4.0,0.0,False,4.0,finished,True,
+2025,9955,Austria,Spielberg,1,55,SAI,Williams,20,,,False,,dns,False,out at or before sc start
+2025,9955,Austria,Spielberg,1,63,RUS,Mercedes,5,5.0,0.0,False,5.0,finished,True,
+2025,9955,Austria,Spielberg,1,81,PIA,McLaren,2,2.0,0.0,False,2.0,finished,True,
+2025,9955,Austria,Spielberg,1,87,BEA,Haas F1 Team,12,12.0,0.0,False,11.0,finished,True,
+2025,9947,United Kingdom,Silverstone,1,1,VER,Red Bull Racing,2,2.0,0.0,False,5.0,finished,True,
+2025,9947,United Kingdom,Silverstone,1,4,NOR,McLaren,3,3.0,0.0,False,1.0,finished,True,
+2025,9947,United Kingdom,Silverstone,1,5,BOR,Kick Sauber,18,,,False,,dnf,False,out at or before sc start
+2025,9947,United Kingdom,Silverstone,1,6,HAD,Racing Bulls,16,17.0,-1.0,False,,dnf,True,
+2025,9947,United Kingdom,Silverstone,1,10,GAS,Alpine,6,6.0,0.0,False,6.0,finished,True,
+2025,9947,United Kingdom,Silverstone,1,12,ANT,Mercedes,15,16.0,-1.0,False,,dnf,True,
+2025,9947,United Kingdom,Silverstone,1,14,ALO,Aston Martin,10,10.0,0.0,False,9.0,finished,True,
+2025,9947,United Kingdom,Silverstone,1,16,LEC,Ferrari,14,13.0,1.0,False,14.0,finished,True,
+2025,9947,United Kingdom,Silverstone,1,18,STR,Aston Martin,4,4.0,0.0,False,7.0,finished,True,
+2025,9947,United Kingdom,Silverstone,1,22,TSU,Red Bull Racing,13,14.0,-1.0,False,15.0,finished,True,
+2025,9947,United Kingdom,Silverstone,1,23,ALB,Williams,12,12.0,0.0,False,8.0,finished,True,
+2025,9947,United Kingdom,Silverstone,1,27,HUL,Kick Sauber,5,5.0,0.0,False,3.0,finished,True,
+2025,9947,United Kingdom,Silverstone,1,30,LAW,Racing Bulls,19,,,False,,dnf,False,out at or before sc start
+2025,9947,United Kingdom,Silverstone,1,31,OCO,Haas F1 Team,7,9.0,-2.0,False,13.0,finished,True,
+2025,9947,United Kingdom,Silverstone,1,43,COL,Alpine,20,,,False,,dns,False,out at or before sc start
+2025,9947,United Kingdom,Silverstone,1,44,HAM,Ferrari,8,7.0,1.0,False,4.0,finished,True,
+2025,9947,United Kingdom,Silverstone,1,55,SAI,Williams,11,11.0,0.0,False,12.0,finished,True,
+2025,9947,United Kingdom,Silverstone,1,63,RUS,Mercedes,9,8.0,1.0,False,10.0,finished,True,
+2025,9947,United Kingdom,Silverstone,1,81,PIA,McLaren,1,1.0,0.0,False,2.0,finished,True,
+2025,9947,United Kingdom,Silverstone,1,87,BEA,Haas F1 Team,17,15.0,2.0,False,11.0,finished,True,
+2025,9947,United Kingdom,Silverstone,2,1,VER,Red Bull Racing,2,10.0,-8.0,False,5.0,finished,True,
+2025,9947,United Kingdom,Silverstone,2,4,NOR,McLaren,3,2.0,1.0,False,1.0,finished,True,
+2025,9947,United Kingdom,Silverstone,2,5,BOR,Kick Sauber,18,,,False,,dnf,False,out at or before sc start
+2025,9947,United Kingdom,Silverstone,2,6,HAD,Racing Bulls,17,,,False,,dnf,False,out at or before sc start
+2025,9947,United Kingdom,Silverstone,2,10,GAS,Alpine,6,5.0,1.0,False,6.0,finished,True,
+2025,9947,United Kingdom,Silverstone,2,12,ANT,Mercedes,16,16.0,0.0,True,,dnf,True,
+2025,9947,United Kingdom,Silverstone,2,14,ALO,Aston Martin,10,8.0,2.0,False,9.0,finished,True,
+2025,9947,United Kingdom,Silverstone,2,16,LEC,Ferrari,13,12.0,1.0,False,14.0,finished,True,
+2025,9947,United Kingdom,Silverstone,2,18,STR,Aston Martin,4,3.0,1.0,False,7.0,finished,True,
+2025,9947,United Kingdom,Silverstone,2,22,TSU,Red Bull Racing,14,14.0,0.0,False,15.0,finished,True,
+2025,9947,United Kingdom,Silverstone,2,23,ALB,Williams,12,11.0,1.0,False,8.0,finished,True,
+2025,9947,United Kingdom,Silverstone,2,27,HUL,Kick Sauber,5,4.0,1.0,False,3.0,finished,True,
+2025,9947,United Kingdom,Silverstone,2,30,LAW,Racing Bulls,19,,,False,,dnf,False,out at or before sc start
+2025,9947,United Kingdom,Silverstone,2,31,OCO,Haas F1 Team,9,13.0,-4.0,True,13.0,finished,True,
+2025,9947,United Kingdom,Silverstone,2,43,COL,Alpine,20,,,False,,dns,False,out at or before sc start
+2025,9947,United Kingdom,Silverstone,2,44,HAM,Ferrari,7,6.0,1.0,False,4.0,finished,True,
+2025,9947,United Kingdom,Silverstone,2,55,SAI,Williams,11,9.0,2.0,False,12.0,finished,True,
+2025,9947,United Kingdom,Silverstone,2,63,RUS,Mercedes,8,7.0,1.0,False,10.0,finished,True,
+2025,9947,United Kingdom,Silverstone,2,81,PIA,McLaren,1,1.0,0.0,False,2.0,finished,True,
+2025,9947,United Kingdom,Silverstone,2,87,BEA,Haas F1 Team,15,15.0,0.0,False,11.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,1,VER,Red Bull Racing,3,3.0,0.0,True,2.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,4,NOR,McLaren,2,2.0,0.0,True,18.0,dnf,True,
+2025,9920,Netherlands,Zandvoort,1,5,BOR,Kick Sauber,18,16.0,2.0,True,15.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,6,HAD,Racing Bulls,4,4.0,0.0,True,3.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,10,GAS,Alpine,12,14.0,-2.0,True,17.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,12,ANT,Mercedes,10,8.0,2.0,True,16.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,14,ALO,Aston Martin,16,13.0,3.0,False,8.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,16,LEC,Ferrari,9,6.0,3.0,False,,dnf,True,
+2025,9920,Netherlands,Zandvoort,1,18,STR,Aston Martin,15,10.0,5.0,False,7.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,22,TSU,Red Bull Racing,17,12.0,5.0,False,9.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,23,ALB,Williams,8,7.0,1.0,True,5.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,27,HUL,Kick Sauber,20,17.0,3.0,False,14.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,30,LAW,Racing Bulls,6,19.0,-13.0,True,12.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,31,OCO,Haas F1 Team,13,9.0,4.0,False,10.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,43,COL,Alpine,19,15.0,4.0,False,11.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,44,HAM,Ferrari,11,,,False,,dnf,False,out at or before sc start
+2025,9920,Netherlands,Zandvoort,1,55,SAI,Williams,7,18.0,-11.0,True,13.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,63,RUS,Mercedes,5,5.0,0.0,True,4.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,81,PIA,McLaren,1,1.0,0.0,True,1.0,finished,True,
+2025,9920,Netherlands,Zandvoort,1,87,BEA,Haas F1 Team,14,11.0,3.0,False,6.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,1,VER,Red Bull Racing,3,3.0,0.0,True,2.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,4,NOR,McLaren,2,2.0,0.0,True,18.0,dnf,True,
+2025,9920,Netherlands,Zandvoort,2,5,BOR,Kick Sauber,15,12.0,3.0,False,15.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,6,HAD,Racing Bulls,4,4.0,0.0,True,3.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,10,GAS,Alpine,11,8.0,3.0,False,17.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,12,ANT,Mercedes,7,7.0,0.0,True,16.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,14,ALO,Aston Martin,12,9.0,3.0,False,8.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,16,LEC,Ferrari,8,,,False,,dnf,False,out at or before sc start
+2025,9920,Netherlands,Zandvoort,2,18,STR,Aston Martin,16,11.0,5.0,True,7.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,22,TSU,Red Bull Racing,10,13.0,-3.0,True,9.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,23,ALB,Williams,6,6.0,0.0,True,5.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,27,HUL,Kick Sauber,14,16.0,-2.0,True,14.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,30,LAW,Racing Bulls,18,17.0,1.0,True,12.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,31,OCO,Haas F1 Team,17,14.0,3.0,True,10.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,43,COL,Alpine,13,15.0,-2.0,True,11.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,44,HAM,Ferrari,20,,,False,,dnf,False,out at or before sc start
+2025,9920,Netherlands,Zandvoort,2,55,SAI,Williams,19,18.0,1.0,True,13.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,63,RUS,Mercedes,5,5.0,0.0,True,4.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,81,PIA,McLaren,1,1.0,0.0,True,1.0,finished,True,
+2025,9920,Netherlands,Zandvoort,2,87,BEA,Haas F1 Team,9,10.0,-1.0,True,6.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,1,VER,Red Bull Racing,2,2.0,0.0,False,2.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,4,NOR,McLaren,7,,,False,18.0,dnf,False,out at or before sc start
+2025,9920,Netherlands,Zandvoort,3,5,BOR,Kick Sauber,18,16.0,2.0,False,15.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,6,HAD,Racing Bulls,3,3.0,0.0,False,3.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,10,GAS,Alpine,11,11.0,0.0,False,17.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,12,ANT,Mercedes,6,6.0,0.0,False,16.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,14,ALO,Aston Martin,10,9.0,1.0,False,8.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,16,LEC,Ferrari,19,,,False,,dnf,False,out at or before sc start
+2025,9920,Netherlands,Zandvoort,3,18,STR,Aston Martin,9,8.0,1.0,False,7.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,22,TSU,Red Bull Racing,12,10.0,2.0,False,9.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,23,ALB,Williams,5,5.0,0.0,False,5.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,27,HUL,Kick Sauber,15,15.0,0.0,False,14.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,30,LAW,Racing Bulls,16,14.0,2.0,False,12.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,31,OCO,Haas F1 Team,13,12.0,1.0,False,10.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,43,COL,Alpine,14,13.0,1.0,True,11.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,44,HAM,Ferrari,20,,,False,,dnf,False,out at or before sc start
+2025,9920,Netherlands,Zandvoort,3,55,SAI,Williams,17,17.0,0.0,True,13.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,63,RUS,Mercedes,4,4.0,0.0,False,4.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,81,PIA,McLaren,1,1.0,0.0,False,1.0,finished,True,
+2025,9920,Netherlands,Zandvoort,3,87,BEA,Haas F1 Team,8,7.0,1.0,False,6.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,1,VER,Red Bull Racing,1,1.0,0.0,False,1.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,4,NOR,McLaren,8,9.0,-1.0,False,7.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,5,BOR,Kick Sauber,12,12.0,0.0,False,11.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,6,HAD,Racing Bulls,7,8.0,-1.0,False,10.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,10,GAS,Alpine,17,16.0,1.0,False,18.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,12,ANT,Mercedes,4,4.0,0.0,False,4.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,14,ALO,Aston Martin,11,11.0,0.0,False,15.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,16,LEC,Ferrari,9,7.0,2.0,False,9.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,18,STR,Aston Martin,13,14.0,-1.0,False,17.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,22,TSU,Red Bull Racing,6,5.0,1.0,False,6.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,23,ALB,Williams,19,18.0,1.0,True,13.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,27,HUL,Kick Sauber,18,15.0,3.0,False,16.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,30,LAW,Racing Bulls,3,3.0,0.0,False,5.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,31,OCO,Haas F1 Team,16,19.0,-3.0,True,14.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,43,COL,Alpine,14,13.0,1.0,False,19.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,44,HAM,Ferrari,10,10.0,0.0,False,8.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,55,SAI,Williams,2,2.0,0.0,False,3.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,63,RUS,Mercedes,5,6.0,-1.0,False,2.0,finished,True,
+2025,9904,Azerbaijan,Baku,1,81,PIA,McLaren,20,,,False,,dnf,False,out at or before sc start
+2025,9904,Azerbaijan,Baku,1,87,BEA,Haas F1 Team,15,17.0,-2.0,False,12.0,finished,True,
+2025,9869,Brazil,Interlagos,1,1,VER,Red Bull Racing,17,13.0,4.0,False,3.0,finished,True,
+2025,9869,Brazil,Interlagos,1,4,NOR,McLaren,1,1.0,0.0,False,1.0,finished,True,
+2025,9869,Brazil,Interlagos,1,5,BOR,Kick Sauber,20,,,False,,dnf,False,out at or before sc start
+2025,9869,Brazil,Interlagos,1,6,HAD,Racing Bulls,5,4.0,1.0,False,8.0,finished,True,
+2025,9869,Brazil,Interlagos,1,10,GAS,Alpine,9,8.0,1.0,False,10.0,finished,True,
+2025,9869,Brazil,Interlagos,1,12,ANT,Mercedes,2,3.0,-1.0,False,2.0,finished,True,
+2025,9869,Brazil,Interlagos,1,14,ALO,Aston Martin,10,10.0,0.0,False,14.0,finished,True,
+2025,9869,Brazil,Interlagos,1,16,LEC,Ferrari,3,19.0,-16.0,False,,dnf,True,
+2025,9869,Brazil,Interlagos,1,18,STR,Aston Martin,15,18.0,-3.0,False,16.0,finished,True,
+2025,9869,Brazil,Interlagos,1,22,TSU,Red Bull Racing,14,15.0,-1.0,True,17.0,finished,True,
+2025,9869,Brazil,Interlagos,1,23,ALB,Williams,11,9.0,2.0,False,11.0,finished,True,
+2025,9869,Brazil,Interlagos,1,27,HUL,Kick Sauber,13,12.0,1.0,False,9.0,finished,True,
+2025,9869,Brazil,Interlagos,1,30,LAW,Racing Bulls,6,5.0,1.0,False,7.0,finished,True,
+2025,9869,Brazil,Interlagos,1,31,OCO,Haas F1 Team,19,16.0,3.0,False,12.0,finished,True,
+2025,9869,Brazil,Interlagos,1,43,COL,Alpine,16,14.0,2.0,False,15.0,finished,True,
+2025,9869,Brazil,Interlagos,1,44,HAM,Ferrari,18,17.0,1.0,True,,dnf,True,
+2025,9869,Brazil,Interlagos,1,55,SAI,Williams,12,11.0,1.0,False,13.0,finished,True,
+2025,9869,Brazil,Interlagos,1,63,RUS,Mercedes,7,6.0,1.0,False,4.0,finished,True,
+2025,9869,Brazil,Interlagos,1,81,PIA,McLaren,4,2.0,2.0,False,5.0,finished,True,
+2025,9869,Brazil,Interlagos,1,87,BEA,Haas F1 Team,8,7.0,1.0,False,6.0,finished,True,
+2025,9850,Qatar,Lusail,1,1,VER,Red Bull Racing,2,3.0,-1.0,True,1.0,finished,True,
+2025,9850,Qatar,Lusail,1,4,NOR,McLaren,3,2.0,1.0,False,4.0,finished,True,
+2025,9850,Qatar,Lusail,1,5,BOR,Kick Sauber,18,15.0,3.0,True,13.0,finished,True,
+2025,9850,Qatar,Lusail,1,6,HAD,Racing Bulls,8,7.0,1.0,True,18.0,dnf,True,
+2025,9850,Qatar,Lusail,1,10,GAS,Alpine,16,19.0,-3.0,True,16.0,finished,True,
+2025,9850,Qatar,Lusail,1,12,ANT,Mercedes,4,5.0,-1.0,True,5.0,finished,True,
+2025,9850,Qatar,Lusail,1,14,ALO,Aston Martin,6,6.0,0.0,True,7.0,finished,True,
+2025,9850,Qatar,Lusail,1,16,LEC,Ferrari,9,9.0,0.0,True,8.0,finished,True,
+2025,9850,Qatar,Lusail,1,18,STR,Aston Martin,17,16.0,1.0,True,17.0,dnf,True,
+2025,9850,Qatar,Lusail,1,22,TSU,Red Bull Racing,14,12.0,2.0,True,10.0,finished,True,
+2025,9850,Qatar,Lusail,1,23,ALB,Williams,15,13.0,2.0,True,11.0,finished,True,
+2025,9850,Qatar,Lusail,1,27,HUL,Kick Sauber,20,,,False,,dnf,False,out at or before sc start
+2025,9850,Qatar,Lusail,1,30,LAW,Racing Bulls,11,11.0,0.0,True,9.0,finished,True,
+2025,9850,Qatar,Lusail,1,31,OCO,Haas F1 Team,13,18.0,-5.0,True,15.0,finished,True,
+2025,9850,Qatar,Lusail,1,43,COL,Alpine,19,17.0,2.0,True,14.0,finished,True,
+2025,9850,Qatar,Lusail,1,44,HAM,Ferrari,12,14.0,-2.0,True,12.0,finished,True,
+2025,9850,Qatar,Lusail,1,55,SAI,Williams,5,4.0,1.0,True,3.0,finished,True,
+2025,9850,Qatar,Lusail,1,63,RUS,Mercedes,7,8.0,-1.0,True,6.0,finished,True,
+2025,9850,Qatar,Lusail,1,81,PIA,McLaren,1,1.0,0.0,False,2.0,finished,True,
+2025,9850,Qatar,Lusail,1,87,BEA,Haas F1 Team,10,10.0,0.0,True,,dnf,True,
+2026,11245,China,Shanghai,1,1,NOR,McLaren,20,,,False,,dns,False,out at or before sc start
+2026,11245,China,Shanghai,1,3,VER,Red Bull Racing,15,11.0,4.0,False,,dnf,True,
+2026,11245,China,Shanghai,1,5,BOR,Audi,21,,,False,,dns,False,out at or before sc start
+2026,11245,China,Shanghai,1,6,HAD,Red Bull Racing,17,14.0,3.0,True,8.0,finished,True,
+2026,11245,China,Shanghai,1,10,GAS,Alpine,5,10.0,-5.0,True,6.0,finished,True,
+2026,11245,China,Shanghai,1,11,PER,Cadillac,13,17.0,-4.0,True,15.0,finished,True,
+2026,11245,China,Shanghai,1,12,ANT,Mercedes,1,1.0,0.0,True,1.0,finished,True,
+2026,11245,China,Shanghai,1,14,ALO,Aston Martin,12,16.0,-4.0,False,,dnf,True,
+2026,11245,China,Shanghai,1,16,LEC,Ferrari,4,6.0,-2.0,True,4.0,finished,True,
+2026,11245,China,Shanghai,1,18,STR,Aston Martin,18,,,False,,dnf,False,out at or before sc start
+2026,11245,China,Shanghai,1,23,ALB,Williams,22,,,False,,dns,False,out at or before sc start
+2026,11245,China,Shanghai,1,27,HUL,Audi,10,9.0,1.0,False,11.0,finished,True,
+2026,11245,China,Shanghai,1,30,LAW,Racing Bulls,14,12.0,2.0,False,7.0,finished,True,
+2026,11245,China,Shanghai,1,31,OCO,Haas F1 Team,7,4.0,3.0,False,14.0,finished,True,
+2026,11245,China,Shanghai,1,41,LIN,Racing Bulls,8,7.0,1.0,False,12.0,finished,True,
+2026,11245,China,Shanghai,1,43,COL,Alpine,6,2.0,4.0,False,10.0,finished,True,
+2026,11245,China,Shanghai,1,44,HAM,Ferrari,3,3.0,0.0,True,3.0,finished,True,
+2026,11245,China,Shanghai,1,55,SAI,Williams,16,13.0,3.0,False,9.0,finished,True,
+2026,11245,China,Shanghai,1,63,RUS,Mercedes,2,5.0,-3.0,True,2.0,finished,True,
+2026,11245,China,Shanghai,1,77,BOT,Cadillac,11,15.0,-4.0,True,13.0,finished,True,
+2026,11245,China,Shanghai,1,81,PIA,McLaren,19,,,False,,dns,False,out at or before sc start
+2026,11245,China,Shanghai,1,87,BEA,Haas F1 Team,9,8.0,1.0,True,5.0,finished,True,
+2026,11253,Japan,Suzuka,1,1,NOR,McLaren,8,6.0,2.0,False,5.0,finished,True,
+2026,11253,Japan,Suzuka,1,3,VER,Red Bull Racing,6,8.0,-2.0,True,8.0,finished,True,
+2026,11253,Japan,Suzuka,1,5,BOR,Audi,10,10.0,0.0,True,13.0,finished,True,
+2026,11253,Japan,Suzuka,1,6,HAD,Red Bull Racing,15,13.0,2.0,False,12.0,finished,True,
+2026,11253,Japan,Suzuka,1,10,GAS,Alpine,3,7.0,-4.0,True,7.0,finished,True,
+2026,11253,Japan,Suzuka,1,11,PER,Cadillac,18,18.0,0.0,True,17.0,finished,True,
+2026,11253,Japan,Suzuka,1,12,ANT,Mercedes,1,1.0,0.0,True,1.0,finished,True,
+2026,11253,Japan,Suzuka,1,14,ALO,Aston Martin,20,20.0,0.0,True,18.0,finished,True,
+2026,11253,Japan,Suzuka,1,16,LEC,Ferrari,7,5.0,2.0,False,3.0,finished,True,
+2026,11253,Japan,Suzuka,1,18,STR,Aston Martin,19,19.0,0.0,True,,dnf,True,
+2026,11253,Japan,Suzuka,1,23,ALB,Williams,13,17.0,-4.0,True,20.0,finished,True,
+2026,11253,Japan,Suzuka,1,27,HUL,Audi,11,12.0,-1.0,True,11.0,finished,True,
+2026,11253,Japan,Suzuka,1,30,LAW,Racing Bulls,9,9.0,0.0,True,9.0,finished,True,
+2026,11253,Japan,Suzuka,1,31,OCO,Haas F1 Team,14,11.0,3.0,False,10.0,finished,True,
+2026,11253,Japan,Suzuka,1,41,LIN,Racing Bulls,16,14.0,2.0,False,14.0,finished,True,
+2026,11253,Japan,Suzuka,1,43,COL,Alpine,17,16.0,1.0,False,16.0,finished,True,
+2026,11253,Japan,Suzuka,1,44,HAM,Ferrari,2,3.0,-1.0,True,6.0,finished,True,
+2026,11253,Japan,Suzuka,1,55,SAI,Williams,12,15.0,-3.0,True,15.0,finished,True,
+2026,11253,Japan,Suzuka,1,63,RUS,Mercedes,5,4.0,1.0,False,4.0,finished,True,
+2026,11253,Japan,Suzuka,1,77,BOT,Cadillac,22,21.0,1.0,False,19.0,finished,True,
+2026,11253,Japan,Suzuka,1,81,PIA,McLaren,4,2.0,2.0,False,2.0,finished,True,
+2026,11253,Japan,Suzuka,1,87,BEA,Haas F1 Team,21,,,False,,dnf,False,out at or before sc start
+2026,11280,United States,Miami,1,1,NOR,McLaren,2,2.0,0.0,False,2.0,finished,True,
+2026,11280,United States,Miami,1,3,VER,Red Bull Racing,8,14.0,-6.0,True,5.0,finished,True,
+2026,11280,United States,Miami,1,5,BOR,Audi,15,15.0,0.0,False,12.0,finished,True,
+2026,11280,United States,Miami,1,6,HAD,Red Bull Racing,22,,,False,,dnf,False,out at or before sc start
+2026,11280,United States,Miami,1,10,GAS,Alpine,20,,,False,,dnf,False,out at or before sc start
+2026,11280,United States,Miami,1,11,PER,Cadillac,14,13.0,1.0,False,16.0,finished,True,
+2026,11280,United States,Miami,1,12,ANT,Mercedes,3,3.0,0.0,False,1.0,finished,True,
+2026,11280,United States,Miami,1,14,ALO,Aston Martin,18,17.0,1.0,False,15.0,finished,True,
+2026,11280,United States,Miami,1,16,LEC,Ferrari,1,1.0,0.0,False,8.0,finished,True,
+2026,11280,United States,Miami,1,18,STR,Aston Martin,16,16.0,0.0,False,17.0,finished,True,
+2026,11280,United States,Miami,1,23,ALB,Williams,9,8.0,1.0,False,10.0,finished,True,
+2026,11280,United States,Miami,1,27,HUL,Audi,21,,,False,,dnf,False,retired during sc
+2026,11280,United States,Miami,1,30,LAW,Racing Bulls,17,,,False,,dnf,False,retired during sc
+2026,11280,United States,Miami,1,31,OCO,Haas F1 Team,12,11.0,1.0,False,13.0,finished,True,
+2026,11280,United States,Miami,1,41,LIN,Racing Bulls,13,12.0,1.0,False,14.0,finished,True,
+2026,11280,United States,Miami,1,43,COL,Alpine,7,7.0,0.0,False,7.0,finished,True,
+2026,11280,United States,Miami,1,44,HAM,Ferrari,6,6.0,0.0,False,6.0,finished,True,
+2026,11280,United States,Miami,1,55,SAI,Williams,10,9.0,1.0,False,9.0,finished,True,
+2026,11280,United States,Miami,1,63,RUS,Mercedes,4,5.0,-1.0,False,4.0,finished,True,
+2026,11280,United States,Miami,1,77,BOT,Cadillac,19,18.0,1.0,True,18.0,finished,True,
+2026,11280,United States,Miami,1,81,PIA,McLaren,5,4.0,1.0,False,3.0,finished,True,
+2026,11280,United States,Miami,1,87,BEA,Haas F1 Team,11,10.0,1.0,False,11.0,finished,True,
+2026,11299,Monaco,Monte Carlo,1,1,NOR,McLaren,19,,,False,,dnf,False,out at or before sc start
+2026,11299,Monaco,Monte Carlo,1,3,VER,Red Bull Racing,22,22.0,0.0,False,,dnf,True,
+2026,11299,Monaco,Monte Carlo,1,5,BOR,Audi,18,17.0,1.0,True,11.0,finished,True,
+2026,11299,Monaco,Monte Carlo,1,6,HAD,Red Bull Racing,5,3.0,2.0,True,3.0,finished,True,
+2026,11299,Monaco,Monte Carlo,1,10,GAS,Alpine,7,5.0,2.0,True,7.0,finished,True,
+2026,11299,Monaco,Monte Carlo,1,11,PER,Cadillac,17,16.0,1.0,True,15.0,finished,True,
+2026,11299,Monaco,Monte Carlo,1,12,ANT,Mercedes,1,1.0,0.0,True,1.0,finished,True,
+2026,11299,Monaco,Monte Carlo,1,14,ALO,Aston Martin,15,15.0,0.0,True,10.0,finished,True,
+2026,11299,Monaco,Monte Carlo,1,16,LEC,Ferrari,3,,,True,,dnf,False,retired during sc
+2026,11299,Monaco,Monte Carlo,1,18,STR,Aston Martin,16,,,False,,dnf,False,out at or before sc start
+2026,11299,Monaco,Monte Carlo,1,23,ALB,Williams,10,10.0,0.0,True,8.0,finished,True,
+2026,11299,Monaco,Monte Carlo,1,27,HUL,Audi,12,13.0,-1.0,True,13.0,finished,True,
+2026,11299,Monaco,Monte Carlo,1,30,LAW,Racing Bulls,8,7.0,1.0,True,5.0,finished,True,
+2026,11299,Monaco,Monte Carlo,1,31,OCO,Haas F1 Team,13,12.0,1.0,True,9.0,finished,True,
+2026,11299,Monaco,Monte Carlo,1,41,LIN,Racing Bulls,9,9.0,0.0,True,6.0,finished,True,
+2026,11299,Monaco,Monte Carlo,1,43,COL,Alpine,14,14.0,0.0,True,14.0,finished,True,
+2026,11299,Monaco,Monte Carlo,1,44,HAM,Ferrari,2,2.0,0.0,True,2.0,finished,True,
+2026,11299,Monaco,Monte Carlo,1,55,SAI,Williams,11,11.0,0.0,True,16.0,dnf,True,
+2026,11299,Monaco,Monte Carlo,1,63,RUS,Mercedes,4,4.0,0.0,True,12.0,finished,True,
+2026,11299,Monaco,Monte Carlo,1,77,BOT,Cadillac,21,,,False,,dnf,False,out at or before sc start
+2026,11299,Monaco,Monte Carlo,1,81,PIA,McLaren,6,6.0,0.0,True,4.0,finished,True,
+2026,11299,Monaco,Monte Carlo,1,87,BEA,Haas F1 Team,20,,,False,,dnf,False,out at or before sc start
+2026,11299,Monaco,Monte Carlo,2,1,NOR,McLaren,19,,,False,,dnf,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,3,VER,Red Bull Racing,22,,,False,,dnf,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,5,BOR,Audi,17,,,True,11.0,finished,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,6,HAD,Red Bull Racing,3,,,True,3.0,finished,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,10,GAS,Alpine,5,,,True,7.0,finished,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,11,PER,Cadillac,16,,,True,15.0,finished,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,12,ANT,Mercedes,1,,,True,1.0,finished,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,14,ALO,Aston Martin,15,,,True,10.0,finished,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,16,LEC,Ferrari,8,,,False,,dnf,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,18,STR,Aston Martin,18,,,False,,dnf,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,23,ALB,Williams,10,,,True,8.0,finished,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,27,HUL,Audi,13,,,True,13.0,finished,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,30,LAW,Racing Bulls,7,,,True,5.0,finished,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,31,OCO,Haas F1 Team,12,,,True,9.0,finished,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,41,LIN,Racing Bulls,9,,,True,6.0,finished,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,43,COL,Alpine,14,,,True,14.0,finished,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,44,HAM,Ferrari,2,,,True,2.0,finished,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,55,SAI,Williams,11,,,True,16.0,dnf,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,63,RUS,Mercedes,4,,,True,12.0,finished,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,77,BOT,Cadillac,21,,,False,,dnf,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,81,PIA,McLaren,6,,,True,4.0,finished,False,sc ended by red_flag
+2026,11299,Monaco,Monte Carlo,2,87,BEA,Haas F1 Team,20,,,False,,dnf,False,sc ended by red_flag
+2026,11326,United Kingdom,Silverstone,1,1,NOR,McLaren,4,,,True,4.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,3,VER,Red Bull Racing,5,,,False,20.0,dnf,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,5,BOR,Audi,9,,,True,8.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,6,HAD,Red Bull Racing,6,,,True,5.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,10,GAS,Alpine,12,,,True,10.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,11,PER,Cadillac,17,,,True,14.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,12,ANT,Mercedes,10,,,False,15.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,14,ALO,Aston Martin,19,,,True,18.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,16,LEC,Ferrari,1,,,True,1.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,18,STR,Aston Martin,20,,,True,19.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,23,ALB,Williams,21,,,False,,dnf,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,27,HUL,Audi,22,,,False,,dnf,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,30,LAW,Racing Bulls,7,,,True,6.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,31,OCO,Haas F1 Team,16,,,True,13.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,41,LIN,Racing Bulls,8,,,True,7.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,43,COL,Alpine,11,,,True,9.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,44,HAM,Ferrari,2,,,True,3.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,55,SAI,Williams,14,,,True,17.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,63,RUS,Mercedes,3,,,False,2.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,77,BOT,Cadillac,18,,,True,16.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,81,PIA,McLaren,13,,,True,11.0,finished,False,sc ended by race_end
+2026,11326,United Kingdom,Silverstone,1,87,BEA,Haas F1 Team,15,,,True,12.0,finished,False,sc ended by race_end
+2026,11334,Belgium,Spa-Francorchamps,1,1,NOR,McLaren,10,9.0,1.0,False,7.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,3,VER,Red Bull Racing,3,3.0,0.0,False,3.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,5,BOR,Audi,9,10.0,-1.0,False,8.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,6,HAD,Red Bull Racing,16,17.0,-1.0,True,6.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,10,GAS,Alpine,11,11.0,0.0,False,11.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,11,PER,Cadillac,18,19.0,-1.0,True,,dnf,True,
+2026,11334,Belgium,Spa-Francorchamps,1,12,ANT,Mercedes,1,1.0,0.0,False,1.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,14,ALO,Aston Martin,20,18.0,2.0,False,19.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,16,LEC,Ferrari,2,2.0,0.0,False,2.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,18,STR,Aston Martin,21,16.0,5.0,False,,dnf,True,
+2026,11334,Belgium,Spa-Francorchamps,1,23,ALB,Williams,12,12.0,0.0,False,15.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,27,HUL,Audi,13,13.0,0.0,False,13.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,30,LAW,Racing Bulls,6,6.0,0.0,False,12.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,31,OCO,Haas F1 Team,15,20.0,-5.0,True,17.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,41,LIN,Racing Bulls,7,7.0,0.0,False,9.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,43,COL,Alpine,8,8.0,0.0,False,10.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,44,HAM,Ferrari,5,5.0,0.0,False,4.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,55,SAI,Williams,17,14.0,3.0,False,16.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,63,RUS,Mercedes,22,,,False,,dnf,False,out at or before sc start
+2026,11334,Belgium,Spa-Francorchamps,1,77,BOT,Cadillac,19,21.0,-2.0,True,18.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,81,PIA,McLaren,4,4.0,0.0,False,5.0,finished,True,
+2026,11334,Belgium,Spa-Francorchamps,1,87,BEA,Haas F1 Team,14,15.0,-1.0,True,14.0,finished,True,
+2026,11361,Italy,Monza,1,1,NOR,McLaren,6,,,False,4.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,3,VER,Red Bull Racing,3,,,False,3.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,5,BOR,Audi,11,,,False,11.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,10,GAS,Alpine,2,,,False,7.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,11,PER,Cadillac,17,,,False,18.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,12,ANT,Mercedes,12,,,False,1.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,14,ALO,Aston Martin,20,,,False,,dnf,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,16,LEC,Ferrari,22,,,False,,dnf,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,18,STR,Aston Martin,21,,,False,,dnf,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,22,TSU,Racing Bulls,14,,,False,10.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,23,ALB,Williams,18,,,False,17.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,27,HUL,Audi,13,,,False,12.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,30,LAW,Red Bull Racing,15,,,False,14.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,31,OCO,Haas F1 Team,10,,,False,16.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,41,LIN,Racing Bulls,7,,,False,8.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,43,COL,Alpine,4,,,False,9.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,44,HAM,Ferrari,8,,,False,6.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,55,SAI,Williams,16,,,False,13.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,63,RUS,Mercedes,1,,,False,2.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,77,BOT,Cadillac,19,,,False,19.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,81,PIA,McLaren,5,,,False,5.0,finished,False,sc ended by red_flag
+2026,11361,Italy,Monza,1,87,BEA,Haas F1 Team,9,,,False,15.0,finished,False,sc ended by red_flag
+2026,11377,Azerbaijan,Baku,1,1,NOR,McLaren,9,19.0,-10.0,True,,dnf,True,
+2026,11377,Azerbaijan,Baku,1,3,VER,Red Bull Racing,3,2.0,1.0,True,2.0,finished,True,
+2026,11377,Azerbaijan,Baku,1,5,BOR,Audi,15,13.0,2.0,True,15.0,finished,True,
+2026,11377,Azerbaijan,Baku,1,6,HAD,Red Bull Racing,4,4.0,0.0,True,3.0,finished,True,
+2026,11377,Azerbaijan,Baku,1,10,GAS,Alpine,7,18.0,-11.0,True,,dnf,True,
+2026,11377,Azerbaijan,Baku,1,11,PER,Cadillac,17,14.0,3.0,True,14.0,finished,True,
+2026,11377,Azerbaijan,Baku,1,12,ANT,Mercedes,8,7.0,1.0,True,5.0,finished,True,
+2026,11377,Azerbaijan,Baku,1,14,ALO,Aston Martin,21,,,False,,dnf,False,out at or before sc start
+2026,11377,Azerbaijan,Baku,1,16,LEC,Ferrari,5,5.0,0.0,True,4.0,finished,True,
+2026,11377,Azerbaijan,Baku,1,18,STR,Aston Martin,22,,,False,,dnf,False,out at or before sc start
+2026,11377,Azerbaijan,Baku,1,23,ALB,Williams,18,,,False,,dnf,False,out at or before sc start
+2026,11377,Azerbaijan,Baku,1,27,HUL,Audi,16,11.0,5.0,True,11.0,finished,True,
+2026,11377,Azerbaijan,Baku,1,30,LAW,Racing Bulls,12,15.0,-3.0,True,12.0,finished,True,
+2026,11377,Azerbaijan,Baku,1,31,OCO,Haas F1 Team,13,8.0,5.0,True,8.0,finished,True,
+2026,11377,Azerbaijan,Baku,1,41,LIN,Racing Bulls,14,10.0,4.0,True,7.0,finished,True,
+2026,11377,Azerbaijan,Baku,1,43,COL,Alpine,10,17.0,-7.0,True,,dnf,True,
+2026,11377,Azerbaijan,Baku,1,44,HAM,Ferrari,6,6.0,0.0,True,6.0,finished,True,
+2026,11377,Azerbaijan,Baku,1,55,SAI,Williams,19,12.0,7.0,True,10.0,finished,True,
+2026,11377,Azerbaijan,Baku,1,63,RUS,Mercedes,1,1.0,0.0,True,1.0,finished,True,
+2026,11377,Azerbaijan,Baku,1,77,BOT,Cadillac,20,16.0,4.0,False,16.0,dnf,True,
+2026,11377,Azerbaijan,Baku,1,81,PIA,McLaren,2,3.0,-1.0,True,13.0,finished,True,
+2026,11377,Azerbaijan,Baku,1,87,BEA,Haas F1 Team,11,9.0,2.0,True,9.0,finished,True,
+2026,11377,Azerbaijan,Baku,2,1,NOR,McLaren,19,,,False,,dnf,False,out at or before sc start
+2026,11377,Azerbaijan,Baku,2,3,VER,Red Bull Racing,2,2.0,0.0,True,2.0,finished,True,
+2026,11377,Azerbaijan,Baku,2,5,BOR,Audi,13,15.0,-2.0,True,15.0,finished,True,
+2026,11377,Azerbaijan,Baku,2,6,HAD,Red Bull Racing,4,4.0,0.0,True,3.0,finished,True,
+2026,11377,Azerbaijan,Baku,2,10,GAS,Alpine,18,,,False,,dnf,False,out at or before sc start
+2026,11377,Azerbaijan,Baku,2,11,PER,Cadillac,14,13.0,1.0,True,14.0,finished,True,
+2026,11377,Azerbaijan,Baku,2,12,ANT,Mercedes,7,7.0,0.0,True,5.0,finished,True,
+2026,11377,Azerbaijan,Baku,2,14,ALO,Aston Martin,21,,,False,,dnf,False,out at or before sc start
+2026,11377,Azerbaijan,Baku,2,16,LEC,Ferrari,5,5.0,0.0,True,4.0,finished,True,
+2026,11377,Azerbaijan,Baku,2,18,STR,Aston Martin,22,,,False,,dnf,False,out at or before sc start
+2026,11377,Azerbaijan,Baku,2,23,ALB,Williams,20,,,False,,dnf,False,out at or before sc start
+2026,11377,Azerbaijan,Baku,2,27,HUL,Audi,11,11.0,0.0,True,11.0,finished,True,
+2026,11377,Azerbaijan,Baku,2,30,LAW,Racing Bulls,15,14.0,1.0,True,12.0,finished,True,
+2026,11377,Azerbaijan,Baku,2,31,OCO,Haas F1 Team,8,8.0,0.0,True,8.0,finished,True,
+2026,11377,Azerbaijan,Baku,2,41,LIN,Racing Bulls,10,10.0,0.0,True,7.0,finished,True,
+2026,11377,Azerbaijan,Baku,2,43,COL,Alpine,17,,,False,,dnf,False,retired during sc
+2026,11377,Azerbaijan,Baku,2,44,HAM,Ferrari,6,6.0,0.0,True,6.0,finished,True,
+2026,11377,Azerbaijan,Baku,2,55,SAI,Williams,12,12.0,0.0,True,10.0,finished,True,
+2026,11377,Azerbaijan,Baku,2,63,RUS,Mercedes,1,1.0,0.0,True,1.0,finished,True,
+2026,11377,Azerbaijan,Baku,2,77,BOT,Cadillac,16,16.0,0.0,True,16.0,dnf,True,
+2026,11377,Azerbaijan,Baku,2,81,PIA,McLaren,3,3.0,0.0,True,13.0,finished,True,
+2026,11377,Azerbaijan,Baku,2,87,BEA,Haas F1 Team,9,9.0,0.0,True,9.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,1,NOR,McLaren,15,14.0,1.0,True,9.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,3,VER,Red Bull Racing,2,1.0,1.0,True,1.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,5,BOR,Audi,11,8.0,3.0,True,18.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,6,HAD,Red Bull Racing,4,4.0,0.0,True,5.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,10,GAS,Alpine,19,19.0,0.0,True,16.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,11,PER,Cadillac,13,16.0,-3.0,True,19.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,12,ANT,Mercedes,1,3.0,-2.0,True,2.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,14,ALO,Aston Martin,17,17.0,0.0,True,8.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,16,LEC,Ferrari,16,15.0,1.0,True,4.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,18,STR,Aston Martin,12,11.0,1.0,True,12.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,23,ALB,Williams,9,13.0,-4.0,True,,dnf,True,
+2026,11731,Bahrain,Kuala Lumpur,1,27,HUL,Audi,14,10.0,4.0,False,11.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,30,LAW,Racing Bulls,5,5.0,0.0,True,7.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,31,OCO,Haas F1 Team,6,6.0,0.0,True,15.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,41,LIN,Racing Bulls,8,7.0,1.0,True,10.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,43,COL,Alpine,21,21.0,0.0,True,13.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,44,HAM,Ferrari,18,12.0,6.0,False,3.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,55,SAI,Williams,7,18.0,-11.0,True,17.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,63,RUS,Mercedes,3,2.0,1.0,True,20.0,dnf,True,
+2026,11731,Bahrain,Kuala Lumpur,1,77,BOT,Cadillac,22,,,False,,dnf,False,out at or before sc start
+2026,11731,Bahrain,Kuala Lumpur,1,81,PIA,McLaren,10,9.0,1.0,True,6.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,1,87,BEA,Haas F1 Team,20,20.0,0.0,True,14.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,1,NOR,McLaren,7,10.0,-3.0,True,9.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,3,VER,Red Bull Racing,1,1.0,0.0,False,1.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,5,BOR,Audi,19,18.0,1.0,True,18.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,6,HAD,Red Bull Racing,4,3.0,1.0,False,5.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,10,GAS,Alpine,17,16.0,1.0,True,16.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,11,PER,Cadillac,20,19.0,1.0,True,19.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,12,ANT,Mercedes,2,2.0,0.0,False,2.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,14,ALO,Aston Martin,10,8.0,2.0,True,8.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,16,LEC,Ferrari,9,5.0,4.0,False,4.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,18,STR,Aston Martin,13,12.0,1.0,False,12.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,23,ALB,Williams,21,,,False,,dnf,False,out at or before sc start
+2026,11731,Bahrain,Kuala Lumpur,2,27,HUL,Audi,11,9.0,2.0,True,11.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,30,LAW,Racing Bulls,8,7.0,1.0,True,7.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,31,OCO,Haas F1 Team,16,15.0,1.0,False,15.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,41,LIN,Racing Bulls,12,11.0,1.0,False,10.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,43,COL,Alpine,15,13.0,2.0,False,13.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,44,HAM,Ferrari,6,4.0,2.0,False,3.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,55,SAI,Williams,18,17.0,1.0,False,17.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,63,RUS,Mercedes,3,,,False,20.0,dnf,False,retired during sc
+2026,11731,Bahrain,Kuala Lumpur,2,77,BOT,Cadillac,22,,,False,,dnf,False,out at or before sc start
+2026,11731,Bahrain,Kuala Lumpur,2,81,PIA,McLaren,5,6.0,-1.0,True,6.0,finished,True,
+2026,11731,Bahrain,Kuala Lumpur,2,87,BEA,Haas F1 Team,14,14.0,0.0,False,14.0,finished,True,
+2026,11404,Mexico,Mexico City,1,1,NOR,McLaren,5,,,False,5.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,3,VER,Red Bull Racing,1,,,False,1.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,5,BOR,Audi,13,,,False,8.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,6,HAD,Red Bull Racing,14,,,False,9.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,10,GAS,Alpine,10,,,False,17.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,11,PER,Cadillac,18,,,True,16.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,12,ANT,Mercedes,4,,,False,3.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,14,ALO,Aston Martin,22,,,False,,dnf,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,16,LEC,Ferrari,2,,,False,4.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,18,STR,Aston Martin,21,,,False,,dnf,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,23,ALB,Williams,19,,,False,11.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,27,HUL,Audi,11,,,False,14.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,30,LAW,Racing Bulls,15,,,False,7.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,41,LIN,Racing Bulls,8,,,False,,dnf,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,43,COL,Alpine,9,,,False,15.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,44,HAM,Ferrari,3,,,True,2.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,50,HIR,Haas F1 Team,17,,,True,10.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,55,SAI,Williams,16,,,False,12.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,63,RUS,Mercedes,6,,,True,6.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,77,BOT,Cadillac,20,,,False,,dnf,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,81,PIA,McLaren,7,,,True,13.0,finished,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,1,87,BEA,Haas F1 Team,12,,,False,,dnf,False,sc ended by red_flag
+2026,11404,Mexico,Mexico City,2,1,NOR,McLaren,5,5.0,0.0,False,5.0,finished,True,
+2026,11404,Mexico,Mexico City,2,3,VER,Red Bull Racing,1,1.0,0.0,False,1.0,finished,True,
+2026,11404,Mexico,Mexico City,2,5,BOR,Audi,11,11.0,0.0,False,8.0,finished,True,
+2026,11404,Mexico,Mexico City,2,6,HAD,Red Bull Racing,13,12.0,1.0,False,9.0,finished,True,
+2026,11404,Mexico,Mexico City,2,10,GAS,Alpine,9,10.0,-1.0,False,17.0,finished,True,
+2026,11404,Mexico,Mexico City,2,11,PER,Cadillac,16,17.0,-1.0,True,16.0,finished,True,
+2026,11404,Mexico,Mexico City,2,12,ANT,Mercedes,3,3.0,0.0,False,3.0,finished,True,
+2026,11404,Mexico,Mexico City,2,14,ALO,Aston Martin,22,,,False,,dnf,False,out at or before sc start
+2026,11404,Mexico,Mexico City,2,16,LEC,Ferrari,4,4.0,0.0,False,4.0,finished,True,
+2026,11404,Mexico,Mexico City,2,18,STR,Aston Martin,21,,,False,,dnf,False,out at or before sc start
+2026,11404,Mexico,Mexico City,2,23,ALB,Williams,12,13.0,-1.0,False,11.0,finished,True,
+2026,11404,Mexico,Mexico City,2,27,HUL,Audi,15,16.0,-1.0,True,14.0,finished,True,
+2026,11404,Mexico,Mexico City,2,30,LAW,Racing Bulls,10,9.0,1.0,False,7.0,finished,True,
+2026,11404,Mexico,Mexico City,2,41,LIN,Racing Bulls,14,,,False,,dnf,False,out at or before sc start
+2026,11404,Mexico,Mexico City,2,43,COL,Alpine,8,8.0,0.0,False,15.0,finished,True,
+2026,11404,Mexico,Mexico City,2,44,HAM,Ferrari,2,2.0,0.0,False,2.0,finished,True,
+2026,11404,Mexico,Mexico City,2,50,HIR,Haas F1 Team,18,15.0,3.0,True,10.0,finished,True,
+2026,11404,Mexico,Mexico City,2,55,SAI,Williams,17,14.0,3.0,False,12.0,finished,True,
+2026,11404,Mexico,Mexico City,2,63,RUS,Mercedes,6,6.0,0.0,False,6.0,finished,True,
+2026,11404,Mexico,Mexico City,2,77,BOT,Cadillac,20,,,False,,dnf,False,out at or before sc start
+2026,11404,Mexico,Mexico City,2,81,PIA,McLaren,7,7.0,0.0,False,13.0,finished,True,
+2026,11404,Mexico,Mexico City,2,87,BEA,Haas F1 Team,19,,,False,,dnf,False,out at or before sc start
